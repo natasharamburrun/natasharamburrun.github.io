@@ -3,6 +3,24 @@ body {
   color: #b7a095;
 }
 
+.page-section {
+  text-align: center;
+  max-width: 600px;
+}
+
+.about-title {
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+
+// .profile-card img {
+//   max-width: 125px;
+//   max-height: 175px;
+//   // border-radius: 50%;
+//   margin: 0 auto;
+//
+// }
 
 .hero-body {
   background-image: url("../images/headerimage4.jpg");
