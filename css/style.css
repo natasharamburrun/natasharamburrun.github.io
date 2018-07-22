@@ -1,0 +1,22 @@
+.hero-body {
+  background-image: url("../images/headerimage4.jpg");
+  background-size: 700px 900px;
+  border: 1px #b7a095 solid; }
+
+.container-title {
+  background-color: #f4ebe8;
+  border: 1px #b7a095 solid;
+  margin-right: -30px;
+  margin-left: -30px; }
+  .container-title .title {
+    padding-top: 25px; }
+
+.subtitle {
+  padding-bottom: 25px; }
+
+.container-name {
+  font-family: 'Amiri', serif;
+  color: #b7a095;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
