@@ -26,35 +26,26 @@
 .navbar {
   background-color: white; }
 
-/* Top Nav */
+/****** Top Nav ******/
 .topnav-container {
   width: 392px;
   margin: 0 auto; }
 
 .topnav {
-  background-color: black;
-  text-align: center;
-  position: fixed;
-  z-index: 9999;
-  width: 100vw;
-  margin: 0px auto;
-  float: clear; }
+  background-color: #71706e;
+  overflow: hidden; }
 
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: #b7a095;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 12px; }
+  font-size: 15px; }
 
 .topnav a:hover {
   color: grey; }
-
-.topnav a > img {
-  width: 25px;
-  height: 25px; }
 
 .active {
   color: white; }
@@ -74,7 +65,7 @@
   .topnav.responsive {
     position: relative; }
 
-  .topnav.responsive a.icon {
+  .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0; }

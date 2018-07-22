@@ -19,6 +19,8 @@ $( document ).ready(function() {
     }
   }
 
+  
+
   // function to smooth the top nav link clicks
   // Select all links with hashes
   $('a[href*="#"]')
