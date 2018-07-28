@@ -5,6 +5,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/app.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css"
   <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
@@ -26,44 +27,38 @@
     <a href="#" style="font-size:15px;" class="icon">&#9776;</a>
   </div>
 </div>
-<div class="container-name">
-  <section class="hero is-medium">
-    <div class="hero-body">
-      <div class="container-title">
-        <h1 class="title">
-          Natasha Ramburrun
-        </h1>
-        <h2 class="subtitle">
-          Web Developer
-        </h2>
-      </div>
-    </div>
-  </section>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container-title">
+    <h1 class="title">Natasha Ramburrun</h1>
+    <h2 class="subtitle">Web Developer</h2>
+  </div>
 </div>
 
 <div class="diagonal-white-right"></div>
 <!-- About me -->
 <div class="about-container">
-  <a name="about"></a>
-  <section class="page-section" id="section-two">
-    <div class="bio-box">
-      <h2 class="about-title">About Me</h2>
-      <h3>Web Developer | London</h3>
-      <br>
-      <p>Welcome to my personal portfolio. I am a web developer with a background in project management. Based in the vibrant city of London. I began my working life working as a salesperson working for retail establishments, then went into studying for a Bachelor Arts degree in Business Management at the University of Wolverhampton.</p><br>
+  <div class="row">
+    <div class="col-md-6">
+      <a name="about"></a>
+      <div class="textAbt">
+        <h1 class="about-title">About me</h1>
+        <h3>Web Developer | London</h3>
+        <p>Welcome to my personal portfolio. I am a web developer with a background in project management. Based in the vibrant city of London. I began my working life working as a salesperson working for retail establishments, then went into studying for a Bachelor Arts degree in Business Management at the University of Wolverhampton.</p><br>
 
-      <p>My professional career began ten years ago where I secured roles in the banking and asset management firms. My career in finance has allowed me to gain valuable experience in managing challenging technical and business projects.</p><br>
+        <p>My professional career began ten years ago where I secured roles in the banking and asset management firms. My career in finance has allowed me to gain valuable experience in managing challenging technical and business projects.</p><br>
 
-      <p>I went on to study web development at General Assembly. During the course, I completed projects which allowed me to be creative as well as utilise problem and logical thinking skills.</p><br>
+        <p>I went on to study web development at General Assembly. During the course, I completed projects which allowed me to be creative as well as utilise problem and logical thinking skills.</p><br>
 
-      <p>Excited to continue my journey in development and continue learning new skills as a front-end developer working for either a fintech startup or an exciting fortune 500 company in the fashion/ retail industry.</p>
+        <p>Excited to continue my journey in development and continue learning new skills as a front-end developer working for either a fintech startup or an exciting fortune 500 company in the fashion/ retail industry.</p>
+      </div>
     </div>
-    <div class="profile-card-container">
-      <figure class="image profile-image">
-        <img src="./images/profile-image.png" alt=" profile image">
-      </figure>
+    <div class="col-md-6">
+      <div class="imgAbt">
+        <img width="250" height="250" src="./images/profile-image.png" alt="profile image"/>
+      </div>
     </div>
-  </section>
+  </div>
 </div>
 <a href="#" id="back-to-top" title="Back to top"><i class="fas fa-angle-double-up top"></i></a>
 </hr>
@@ -72,7 +67,7 @@ Planview, MS Project, Visio, SAP, Agile, Scrum, Prince2, Change Management, JIRA
 
 <div class="diagonal-white-left"></div>
 <!-- skills -->
-<div class="skills-container">
+<div class= "skills-container">
   <a name="skills"></a>
   <section class="skills-box" id="section-three">
     <div class="skills-sec">
@@ -119,20 +114,21 @@ Planview, MS Project, Visio, SAP, Agile, Scrum, Prince2, Change Management, JIRA
   <a name="projects"></a>
   <section class="page-portfolio" id="section-four">
     <div class="portfolio-sec">
-      <h2 class="portfolio-title">My Projects</h2>
-      <section class="four" class="wrapper alt style2">
+      <h2 class="project-title">My Projects</h2>
         <!--- Project4 -->
-        <div class="anchorDiv2" id="project1Tile"></div>
-        <div class="container outer h-100">
+        <div class="anchorDiv2" id="project4Tile"></div>
+        <div class="container">
           <div class="inner">
-            <h3 class="text-right">Designer MarketPlace</h3>
-            <h4 class="text-right">React</h4>
+            <div class="text">
+              <h3 class="text-right">Designer MarketPlace</h3>
+              <h4 class="text-right">React, Node.js & Express</h4>
+            </div>
             <hr>
             <div class="row">
-              <div class="col-lg-6 mx-auto text-center">
-                <img src="img/Project1/LandingPage/visual2_img1.png" class="img-fluid projectImage">
+              <div class="col-lg-6">
+                <img width="550" height="450" src="https://i.imgur.com/SLRZ5TQ.png" class="img-project">
               </div>
-              <div class="col-lg-6 mx-auto">
+              <div class="col-lg-6">
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                 <div class="btn-group">
                   <div class="d-inline-block">
@@ -145,15 +141,85 @@ Planview, MS Project, Visio, SAP, Agile, Scrum, Prince2, Change Management, JIRA
                     </button></a>
                   </div>
                 </div>
-              </div>
             </div>
+            <hr>
             <hr class="style2">
-            <div class="downarrow2 bounce"><a href="#project2Tile"><i class="fa fa-angle-double-down"></i></a></div>
+            <div class="downarrow2 bounce"><a href="#project3Tile"><i class="fa fa-angle-double-down"></i></a></div>
           </div>
         </div>
-      </section>
+        </div>
+        <hr>
+      <!-- Project3 -->
+      <div class="anchorDiv2" id="project3Tile"></div>
+      <div class="container">
+        <div class="inner">
+          <div class="text">
+            <h3 class="text-right">What's in your fridge</h3>
+            <h4 class="text-right">AngularJS, Node.js & Express</h4>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-6">
+              <img width="550" height="450" src="https://i.imgur.com/JQagkDI.png" class="img-project">
+            </div>
+            <div class="col-lg-6">
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+              <div class="btn-group">
+                <div class="d-inline-block">
+                  <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-3"  role="button">
+                    <div class="gitbutton"></div>
+                  </a>
+                </div>
+                <div class="d-inline-block">
+                  <a href="https://what-is-in-your-fridge.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary" >View Project
+                  </button></a>
+                </div>
+              </div>
+          </div>
+          <hr>
+          <hr class="style2">
+          <div class="downarrow2 bounce"><a href="#project2Tile"><i class="fa fa-angle-double-down"></i></a></div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Project2 -->
+      <div class="anchorDiv2" id="project2Tile"></div>
+      <div class="container">
+        <div class="inner">
+          <div class="text">
+            <h3 class="text-right">Hair Stylist</h3>
+            <h4 class="text-right"></h4>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-6">
+              <img width="550" height="450" src="https://i.imgur.com/9KuwvpH.png" class="img-project">
+            </div>
+            <div class="col-lg-6">
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+              <div class="btn-group">
+                <div class="d-inline-block">
+                  <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-2"  role="button">
+                    <div class="gitbutton"></div>
+                  </a>
+                </div>
+                <div class="d-inline-block">
+                  <a href="https://wd34hairstylistappproject.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary" >View Project
+                  </button></a>
+                </div>
+              </div>
+          </div>
+          <hr>
+          <hr class="style2">
+          <div class="downarrow2 bounce"><a href="#project2Tile"><i class="fa fa-angle-double-down"></i></a></div>
+        </div>
+      </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 </div>
 </body>
 </html>

@@ -6,7 +6,12 @@ body {
 }
 
 //******Portfolio******
-.portfolio-title {
+
+// .row-project {
+//   display: inline-flex;
+// }
+
+.project-title {
   margin-top: 50px;
   font-weight: bolder;
   font-size: 25px;
@@ -15,10 +20,21 @@ body {
   color: #b7a095;
 }
 
+.img-project {
+  // border: 1px red solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .project4{
-  height: 60px;
-  width: 100%;
+  // height: 60px;
+  // width: 100%;
+}
+
+.text {
+
 }
 //******GIThub link*****
 //******Skills******
@@ -77,12 +93,16 @@ body {
   font-family: 'Amiri', serif;
   color: #b7a095;
   padding-top: 100px;
+  margin-top: -5px;
 }
 
 h3 {
+  font-size: 16px;
   font-weight: bold;
 
 }
+
+
 
 //******about me******
 
@@ -93,7 +113,6 @@ h3 {
 
 .about-container {
   text-align: center;
-  clear: right;
 }
 .clearfix {
   clear: both;
@@ -108,38 +127,45 @@ h3 {
   color: #b7a095;
 }
 
-.bio-box {
+.textAbt {
   text-align: center;
-  max-width: 600px;
+  position: relative;
+  max-width: 1000px;
   padding: 10px;
-  margin-right: 30px;
+  // margin-left: 20%;
+  margin: 100px;
+  margin-top: -0px;
   margin-bottom: 45px;
+  float: right;
+  p {
+    font-size: 16px;
+  }
 }
 
-.profile-card-container img {
-  border: 1px #b7a095 solid;
+// .imgAbt img {
+  // border: 1px #b7a095 solid;
   // border-radius: 80%;
-  padding: 20px;
+  // padding: 20px;
   // max-width: 125px;
   // max-height: 175px;
-}
+// }
 
-.profile-card-container {
-  float: right;
-  padding: 30px;
-  margin-left: 30px;
-  width: 300px;
-  min-height: 300px;
+.imgAbt {
+  // float: right;
+  // padding: 30px;
+  margin-bottom: 100px;
+  // width: 300px;
+  // min-height: 300px;
   padding-top: 100px;
-  border-radius: 50%;
-  border: 1px #b7a095 solid;
+  // border-radius: 50%;
+  // border: 1px #b7a095 solid;
   // background-image: url("../images/marblebackground.jpg");
 }
 
 //******break******
 
 .diagonal-white-right {
-    width: 100%;
+    width: 101%;
     border-bottom: 80px solid white;
     -webkit-transform:
         translateY(-45px)
@@ -151,7 +177,7 @@ h3 {
 
 //******hero and title section******
 
-.hero-body {
+.jumbotron {
   background-image: url("../images/headerimage4.jpg");
   // background-color: #71706e;
   background-position: center;
@@ -164,10 +190,15 @@ h3 {
 }
 
 .container-title {
+  // background-color: RGB(244,235,232, 0.7);
   background-color: #f4ebe8;
+  font-family: 'Amiri', serif;
+  color: #b7a095;
+  text-align: center;
+  margin-top: 90px;
   // border: 1px #b7a095 solid;
-  margin-right: -24px;
-  margin-left: -24px;
+  // margin-right: -24px;
+  // margin-left: -24px;
   .title {
     padding-top: 40px;
     color: #b7a095;
@@ -176,15 +207,13 @@ h3 {
 }
 
 .subtitle {
+  font-size: 22px;
   padding-bottom: 30px;
   color: #b7a095;
 }
 
-.container-name {
-  font-family: 'Amiri', serif;
-  color: #b7a095;
-  text-align: center;
-}
+// .container-name {
+// }
 
 
 // .navbar {
