@@ -4,15 +4,30 @@ body {
   font-family: 'Amiri', serif;
   color: #b7a095;
 }
+//******Down arrow*****
+
+.fa {
+  color: #b7a095;
+  padding-top:25px;
+  font-size: 22px;
+  opacity: .5;
+}
+
+.downarrow2 {
+  position:relative;
+  bottom:0;
+  left:50%;
+  color: #b7a095;
+  height: 30px;
+  width: 30px;
+  border: none;
+  margin-bottom: 5px;
+}
 
 //******Portfolio******
 
-// .row-project {
-//   display: inline-flex;
-// }
-
 .project-title {
-  margin-top: 50px;
+  margin-top: 70px;
   font-weight: bolder;
   font-size: 25px;
   text-align: center;
@@ -21,7 +36,6 @@ body {
 }
 
 .img-project {
-  // border: 1px red solid;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -33,9 +47,19 @@ body {
   // width: 100%;
 }
 
-.text {
+  // .anchorDiv{
+  //   // border: red 1px solid;
+  //   height: 20px;
+  //   // width: 100%;
+  // }
+  //
+  // .anchorDiv2{
+  //   // border: red 1px solid;
+  //   // height: 100px;
+  //   // width: 100%;
+  // }
 
-}
+
 //******GIThub link*****
 //******Skills******
 
@@ -113,6 +137,7 @@ h3 {
 
 .about-container {
   text-align: center;
+  margin-top: 70px;
 }
 .clearfix {
   clear: both;
@@ -258,13 +283,15 @@ h3 {
 /****** Top Nav ******/
 
 .topnav-container {
-  width: 500px;
+  width: 505px;
   margin: 0 auto;
 }
 
 .topnav {
+  // background-color: #f1f1f1;
     background-color: #71706e;
     overflow: hidden;
+    width: 100%;
 }
 
 .topnav a {
