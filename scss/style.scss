@@ -51,7 +51,7 @@ body {
   font-size: 25px;
   text-align: center;
   font-family: 'Amiri', serif;
-  color: #b7a095;
+  color: #71706e;
 }
 
 .img-project {
@@ -64,6 +64,29 @@ body {
 .project4{
   // height: 60px;
   // width: 100%;
+}
+
+.inner {
+  font-family: 'Amiri', serif;
+  color: #71706e;
+  h3 {
+    font-size: 32px;
+    h4 {
+      font-size: 22px;
+      color: red;
+      p {
+      }
+    }
+  }
+}
+
+.projectdescription {
+  padding: 20px;
+  font-size: 18px;
+  text-align: justify;
+  margin-right: -20px;
+  word-spacing: 1px;
+
 }
 
   // .anchorDiv{
@@ -84,11 +107,13 @@ body {
 
 .skills-container {
   background-color: #f4ebe8;
+  color: #71706e;
 }
 
 .devicon {
   font-size: 40px;
   padding: 10px 40px;
+  color: #71706e;
 }
 
 .skills-sec {
@@ -130,7 +155,7 @@ ul {
   font-size: 25px;
   text-align: center;
   font-family: 'Amiri', serif;
-  color: #b7a095;
+  color: #71706e;
   padding-top: 80px;
   padding-bottom: 40px;
   margin-top: -5px;
@@ -155,11 +180,11 @@ ul {
   font-size: 25px;
   text-align: center;
   font-family: 'Amiri', serif;
-  color: #b7a095;
+  color: #71706e;
 }
 
 .textAbt {
-  text-align: center;
+  text-align: justify;
   position: relative;
   max-width: 1000px;
   padding: 10px;
@@ -168,10 +193,14 @@ ul {
   margin-top: -0px;
   margin-bottom: 45px;
   p {
-    font-size: 20px;
+    font-size: 18px;
+    color: #71706e;
   }
 }
 
+h3 {
+  color: #71706e;
+}
 .imgAbt img {
   // border: 1px #b7a095 solid;
   padding: 30px;
@@ -232,10 +261,10 @@ ul {
   background-image: url("../images/headerimage4.jpg");
   // background-color: #71706e;
   background-position: center;
-  background-size: 700px 1000px;
+  background-size: 700px 600px;
   // border: 1px #b7a095 solid;
-  -moz-background-size: 700px 1000px;
-  -webkit-background-size: 700px 1000px;
+  -moz-background-size: 700px 600px;
+  -webkit-background-size: 700px 600px;
   min-height: 400px;
   // background-attachment: fixed;
 }
