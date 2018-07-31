@@ -43,7 +43,8 @@ body {
 .img-project {
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-top: 20px; }
 
 .inner {
   font-family: 'Amiri', serif;
@@ -55,12 +56,14 @@ body {
       color: red; }
 
 .projectdescription {
-  padding: 20px;
   font-size: 18px;
   text-align: justify;
-  margin-right: -20px;
-  word-spacing: 1px; }
+  word-spacing: 1px;
+  padding: 50px; }
 
+@media screen and (min-width: 1440px) {
+  .projectdescription {
+    margin-right: -50px; } }
 .anchorDiv2 {
   height: 50px; }
 
@@ -127,11 +130,13 @@ ul {
   color: #71706e; }
 
 .textAbt {
-  text-align: justify;
+  text-align: right;
   position: relative;
   max-width: 1000px;
   padding: 10px;
   margin: 100px;
+  margin-right: 20px;
+  padding-left: 50px;
   margin-top: -0px;
   margin-bottom: 45px; }
   .textAbt p {
@@ -142,12 +147,12 @@ h3 {
   color: #71706e; }
 
 .imgAbt img {
-  padding: 30px;
+  border: 1px #b7a095 solid;
+  border-radius: 40%;
   float: left;
-  margin-top: 30px; }
-
-.col-md-5 {
-  padding-bottom: 80px; }
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 60px; }
 
 @media screen and (max-width: 600px) {
   .imgAbt img {
@@ -158,6 +163,27 @@ h3 {
 @media screen and (max-width: 992px) {
   .imgAbt img {
     float: none; } }
+@media screen and (max-width: 600px) {
+  .textAbt {
+    text-align: center;
+    margin-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px; } }
+@media screen and (max-width: 768px) {
+  .textAbt {
+    text-align: center;
+    margin-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px; } }
+@media screen and (max-width: 992px) {
+  .textAbt {
+    text-align: center;
+    margin-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px; } }
 .diagonal-white-right {
   width: 101%;
   border-bottom: 80px solid white;

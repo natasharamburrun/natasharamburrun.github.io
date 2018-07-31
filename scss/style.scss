@@ -58,6 +58,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 
@@ -81,12 +82,18 @@ body {
 }
 
 .projectdescription {
-  padding: 20px;
+  // padding: 20px;
   font-size: 18px;
   text-align: justify;
-  margin-right: -20px;
+  // margin-right: -50px;
   word-spacing: 1px;
+  padding: 50px;
+}
 
+@media screen and (min-width: 1440px) {
+  .projectdescription {
+    margin-right: -50px;
+  }
 }
 
   // .anchorDiv{
@@ -98,7 +105,6 @@ body {
   .anchorDiv2 {
     height: 50px;
   }
-
 
 //******GIThub link*****
 
@@ -184,12 +190,13 @@ ul {
 }
 
 .textAbt {
-  text-align: justify;
+  text-align: right;
   position: relative;
   max-width: 1000px;
   padding: 10px;
-  // margin-left: 20%;
   margin: 100px;
+  margin-right: 20px;
+  padding-left: 50px;
   margin-top: -0px;
   margin-bottom: 45px;
   p {
@@ -202,14 +209,13 @@ h3 {
   color: #71706e;
 }
 .imgAbt img {
-  // border: 1px #b7a095 solid;
-  padding: 30px;
+  border: 1px #b7a095 solid;
+  border-radius: 40%;
+  // padding: 30px;
   float: left;
   margin-top: 30px;
-}
-
-.col-md-5 {
-  padding-bottom: 80px;
+  margin-left: 30px;
+  margin-bottom: 60px;
 }
 
 //making the profile image responsive on all devices
@@ -230,6 +236,38 @@ h3 {
     float: none;
   }
 }
+
+//making the profile about information responsive on all devices
+@media screen and (max-width: 600px) {
+  .textAbt {
+    text-align: center;
+    margin-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .textAbt {
+    text-align: center;
+    margin-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .textAbt {
+    text-align: center;
+    margin-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
 
 //******break******
 
