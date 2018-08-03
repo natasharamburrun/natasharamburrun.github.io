@@ -31,12 +31,11 @@
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container-title">
-      <h1 class="title">Natasha Ramburrun</h1>
-      <h2 class="subtitle">Web Developer</h2>
+
     </div>
   </div>
 
-  <div class="diagonal-white-right"></div>
+  <!-- <div class="diagonal-white-right"></div> -->
   <!-- About me -->
   <a name="about"></a>
   <div class="about-container">
@@ -72,44 +71,65 @@
   <section class="skills-box" id="section-three">
     <div class="skills-sec">
       <h2 class="skills-title">Skills & Technologies</h2>
-      <h3>Languages</h3>
-      <ul class="Language-skills">
-        <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
-        <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
-        <li><i class="devicon devicon-css3-plain"></i><p>CSS3</p></li>
-        <li><i class="devicon devicon-sass-original"></i><p>SASS</p></li>
-        <li><i class="devicon devicon-bootstrap-plain"></i><p>Bootstrap</p></li>
-      </ul>
-      <br>
-      <h3>Backend Skills</h3>
-      <ul class="backend-skills">
-        <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
-        <li><i class="devicon devicon-nodejs-plain"></i><p>Node.js</p></li>
-        <li><i class="devicon devicon-mongodb-plain"></i><p>MongoDB</p></li>
-      </ul>
-      <br>
-      <h3>Frontend Skills</h3>
-      <ul class="frontend-skills">
-        <li><i class="devicon devicon-jquery-plain"></i><p>jQuery</p></li>
-        <li><i class="devicon devicon-react-original"></i><p>React</p></li>
-        <li><i class="devicon devicon-angularjs-plain"></i><p>AngularJS</p></li>
-        <li><i class="devicon-webpack-plain"></i><p>Webpack</p></li>
-      </ul>
-      <br>
-      <h3>Tools and Methodologies</h3>
-      <ul class="tools-skills">
-        <li><i class="devicon devicon-atom-original"></i><p>Atom</p></li>
-        <li><i class="devicon devicon-babel-plain"></i><p>Babel</p></li>
-        <li><i class="devicon devicon-git-plain"></i><p>Git</p></li>
-        <li><i class="devicon devicon-github-plain"></i><p>GitHub</p></li>
-        <li><i class="devicon devicon-heroku-original"></i><p>Heroku</p></li>
-        <li><i class="devicon devicon-mocha-plain"></i><p>Mocha</p></li>
-        <li><i class="devicon devicon-trello-plain"></i><p>Trello</p></li>
-      </ul>
+      <div class="col s12 m6 center-align">
+        <div>
+          <p>
+            <strong>Languages</strong>
+            <span class="skills">JavaScript</span>
+            <span class="skills">HTML5</span>
+            <span class="skills">CSS3</span>
+            <span class="skills">Sass</span>
+            <span class="skills">Bootstrap</span>
+          </p>
+          <p>
+            <strong>Frameworks</strong>
+            <span class="skills">Node.js</span>
+            <span class="skills">Express.js</span>
+          </p>
+          <p>
+            <strong>Libraries</strong>
+            <span class="skills">React.js</span>
+            <span class="skills">AngularJS</span>
+            <span class="skills">JQuery</span>
+            <span class="skills">vue.js</span>
+            <span class="skills">Bootstrap</span>
+            <span class="skills">Bulma</span>
+          </p>
+          <p>
+            <strong>Data</strong>
+            <span class="skills">MongoDB</span>
+            <span class="skills">Mongoose</span>
+          </p>
+          <p>
+            <strong>Cloud</strong>
+            <span class="skills">Heroku</span>
+          </p>
+          <p>
+            <strong>Extras</strong>
+            <span class="skills">RESTful APIs</span>
+            <span class="skills">HTTP</span>
+            <span class="skills">AJAX</span>
+            <span class="skills">JSON</span>
+            <span class="skills">Authentication</span>
+            <span class="skills">OAuth</span>
+            <span class="skills">Git</span>
+            <span class="skills">GitHub</span>
+          </p>
+          <p>
+            <strong>Tools</strong>
+            <span class="skills">Atom</span>
+            <span class="skills">Draw.io</span>
+            <span class="skills">Trello</span>
+          </p>
+        </div>
+      </div>
     </div>
-  </section>
+
+
 </div>
-<div class="diagonal-white-right"></div>
+</section>
+<!--
+<div class="diagonal-white-right"></div> -->
 <!-- portfolio -->
 <div id="projects" class="anchorDiv"></div>
 <div class="portfolio-container">
@@ -124,7 +144,16 @@
           <hr>
           <div class="text">
             <h3 class="text-right">Designer MarketPlace</h3>
-            <h4 class="text-right">React, Node.js, Express, MongoDB, Strip & FileStack</h4>
+            <!-- <h4 class="text-right">Built with:</h4> -->
+            <ul class="project4language">
+              <li><i class="devicon devicon-react-original"></i><p>React</p></li>
+              <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
+              <li><i class="devicon devicon-nodejs-plain"></i><p>Node.js</p></li>
+              <li><i class="devicon devicon-mongodb-plain"></i><p>MongoDB</p></li>
+              <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
+              <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
+              <li><i class="devicon devicon-sass-original"></i><p>SASS</p></li>
+            </ul>
           </div>
           <div class="row">
             <div class="col-lg-6">
@@ -132,148 +161,173 @@
             </div>
             <div class="col-lg-6">
               <p class="projectdescription"> Built a fully Authenticated RESTful MERN application.
-              The application, Designer Marketplace is a luxury retail e-commerce app which allows users to buy or sell pre-owned clothes. </p>
-              <div class="btn-group">
-                <div class="d-inline-block">
-                  <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-4"  role="button">
-                    <div class="gitbutton"></div>
-                  </a>
-                </div>
-                <div class="d-inline-block">
-                  <a href="https://designer-marketplace.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary" >View Project
-                  </button></a>
-                </div>
-              </div>
-            </div>
-            <hr>
-            <!-- <hr class="style2"> -->
-            <div class="downarrow2"><a href="#project3Tile"><i class="fa fa-angle-double-down"></i></a></div>
-          </div>
-          <hr>
-        </div>
-      </div>
-      <!-- Project3 -->
-      <div class="anchorDiv2" id="project3Tile"></div>
-      <div class="container">
-        <div class="inner">
-          <hr>
-          <div class="text">
-            <h3 class="text-right">What's in your fridge</h3>
-            <h4 class="text-right">AngularJS, Node.js Express, MongoDB, & Spoonacular</h4>
-          </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <img width="550" height="375" src="https://i.imgur.com/JQagkDI.png" class="img-project">
-            </div>
-            <div class="col-lg-6">
-              <p class="projectdescription"> Collaborated as part of a team to create a RESTful application using third party API Spoonacular.<br>
-              The team worked collaboratively by pair programming as well as focused on sections independently.<br>
-              We developed this app using a third party API called spoonacular to allow users to filter recipes by ingredients in their fridge. </p>
-              <div class="btn-group">
-                <div class="d-inline-block">
-                  <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-3"  role="button">
-                    <div class="gitbutton"></div>
-                  </a>
-                </div>
-                <div class="d-inline-block">
-                  <a href="https://what-is-in-your-fridge.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary" >View Project
-                  </button></a>
+                The application, Designer Marketplace is a luxury retail e-commerce app which allows users to buy or sell pre-owned clothes. </p>
+                <div class="btn-group">
+                  <div class="d-inline-block">
+                    <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-4"  role="button">
+                      <div class="link-icon"><i class="fa fa-link"></i></div>
+                      <div class="gitbutton"></div>
+                    </a>
+                  </div>
+                  <div class="d-inline-block">
+                    <a href="https://designer-marketplace.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary" >View Project
+                    </button></a>
+                  </div>
                 </div>
               </div>
+              <!-- <hr> -->
+              <!-- <hr class="style2"> -->
+              <div class="downarrow2"><a href="#project3Tile"><i class="fa fa-angle-double-down"></i></a></div>
             </div>
             <hr>
-            <!-- <hr class="style2"> -->
-            <div class="downarrow2"><a href="#project2Tile"><i class="fa fa-angle-double-down"></i></a></div>
           </div>
-          <hr>
         </div>
-      </div>
-      <!-- Project2 -->
-      <div class="anchorDiv2" id="project2Tile"></div>
-      <div class="container">
-        <div class="inner">
-          <hr>
-          <div class="text">
-            <h3 class="text-right">Hair Stylist</h3>
-            <h4 class="text-right">EJS, Node.js & MongoDB</h4>
-          </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <img width="550" height="375" src="https://i.imgur.com/9KuwvpH.png" class="img-project">
+        <!-- Project3 -->
+        <div class="anchorDiv2" id="project3Tile"></div>
+        <div class="container">
+          <div class="inner">
+            <hr>
+            <div class="text">
+              <h3 class="text-right">What's in your fridge</h3>
+              <ul class="project4language">
+                <li><i class="devicon devicon-angularjs-plain"></i><p>AngularJS</p></li>
+                <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
+                <li><i class="devicon devicon-nodejs-plain"></i><p>Node.js</p></li>
+                <li><i class="devicon devicon-mongodb-plain"></i><p>MongoDB</p></li>
+                <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
+                <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
+                <li><i class="devicon devicon-sass-original"></i><p>SASS</p></li>
+              </ul>
             </div>
-            <div class="col-lg-6">
-              <p class="projectdescription"> RESTful app using an Express MVC model which includes full authentication using jQuery library and MongoDB/Mongoose.<br>
-              Created an application for London based hairstylists to showcase their portfolio of hairstyles. </p>
-              <div class="btn-group">
-                <div class="d-inline-block">
-                  <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-2"  role="button">
-                    <div class="gitbutton"></div>
-                  </a>
+            <div class="row">
+              <div class="col-lg-6">
+                <img width="550" height="375" src="https://i.imgur.com/JQagkDI.png" class="img-project">
+              </div>
+              <div class="col-lg-6">
+                <p class="projectdescription"> Collaborated as part of a team to create a RESTful application using third party API Spoonacular.<br>
+                  The team worked collaboratively by pair programming as well as focused on sections independently.<br>
+                  We developed this app using a third party API called spoonacular to allow users to filter recipes by ingredients in their fridge. </p>
+                  <div class="btn-group">
+                    <div class="d-inline-block">
+                      <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-3"  role="button">
+                        <div class="link-icon"><i class="fa fa-link"></i></div>
+                        <div class="gitbutton"></div>
+                      </a>
+                    </div>
+                    <div class="d-inline-block">
+                      <a href="https://what-is-in-your-fridge.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary" >View Project
+                      </button></a>
+                    </div>
+                  </div>
                 </div>
-                <div class="d-inline-block">
-                  <a href="https://wd34hairstylistappproject.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary" >View Project
-                  </button></a>
+                <!-- <hr class="style2"> -->
+                <div class="downarrow2"><a href="#project2Tile"><i class="fa fa-angle-double-down"></i></a></div>
+              </div>
+              <hr>
+            </div>
+          </div>
+          <!-- Project2 -->
+          <div class="anchorDiv2" id="project2Tile"></div>
+          <div class="container">
+            <div class="inner">
+              <hr>
+              <div class="text">
+                <h3 class="text-right">Hair Stylist</h3>
+                <!-- <h4 class="text-right">EJS, Node.js & MongoDB</h4> -->
+                <ul class="project4language">
+                  <li><i class="devicon devicon-jquery-plain"></i><p>jQuery</p></li>
+                  <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
+                  <li><i class="devicon devicon-nodejs-plain"></i><p>Node.js</p></li>
+                  <li><i class="devicon devicon-mongodb-plain"></i><p>MongoDB</p></li>
+                  <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
+                  <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
+                  <li><i class="devicon devicon-sass-original"></i><p>SASS</p></li>
+                </ul>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <img width="550" height="375" src="https://i.imgur.com/9KuwvpH.png" class="img-project">
                 </div>
+                <div class="col-lg-6">
+                  <p class="projectdescription"> RESTful app using an Express MVC model which includes full authentication using jQuery library and MongoDB/Mongoose.<br>
+                    Created an application for London based hairstylists to showcase their portfolio of hairstyles. </p>
+                    <div class="btn-group">
+                      <div class="d-inline-block">
+                        <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-2"  role="button">
+                          <div class="link-icon"><i class="fa fa-link"></i></div>
+                          <div class="gitbutton"></div>
+                        </a>
+                      </div>
+                      <div class="d-inline-block">
+                        <a href="https://wd34hairstylistappproject.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary" >View Project
+                        </button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <hr class="style2"> -->
+                  <div class="downarrow2"><a href="#project1Tile"><i class="fa fa-angle-double-down"></i></a></div>
+                </div>
+                <hr>
               </div>
             </div>
-            <hr>
-            <!-- <hr class="style2"> -->
-            <div class="downarrow2"><a href="#project1Tile"><i class="fa fa-angle-double-down"></i></a></div>
-          </div>
-          <hr>
-        </div>
-      </div>
 
-      <!-- Project1 -->
-      <div class="anchorDiv2" id="project1Tile"></div>
-      <div class="container">
-        <div class="inner">
-          <hr>
-          <div class="text">
-            <h3 class="text-right">Mouse Maze</h3>
-            <h4 class="text-right">JavaScript, JQuery</h4>
-          </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <img width="550" height="375" src="https://i.imgur.com/1j8ypR3.png" class="img-project">
-            </div>
-            <div class="col-lg-6">
-              <p class="projectdescription"> Grid-based game using HTML, CSS, JavaScript and jQuery library. One player game using keyboard arrows to collect objects avoiding roaming cat enemies which movement is automated. </p>
-              <div class="btn-group">
-                <div class="d-inline-block">
-                  <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-1"  role="button">
-                    <div class="gitbutton"></div>
-                  </a>
+            <!-- Project1 -->
+            <div class="anchorDiv2" id="project1Tile"></div>
+            <div class="container">
+              <div class="inner">
+                <hr>
+                <div class="text">
+                  <h3 class="text-right">Mouse Maze</h3>
+                  <!-- <h4 class="text-right">JavaScript, JQuery</h4> -->
+                  <ul class="project4language">
+                    <li><i class="devicon devicon-jquery-plain"></i><p>jQuery</p></li>
+                    <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
+                    <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
+                    <li><i class="devicon devicon-css3-plain"></i><p>CSS3</p></li>
+                  </ul>
                 </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img width="550" height="375" src="https://i.imgur.com/1j8ypR3.png" class="img-project">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="projectdescription"> Grid-based game using HTML, CSS, JavaScript and jQuery library. One player game using keyboard arrows to collect objects avoiding roaming cat enemies which movement is automated. </p>
+                    <div class="btn-group">
+                      <div class="d-inline-block">
+                        <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-1"  role="button">
+                          <div class="link-icon"><i class="fa fa-link"></i></div>
+                          <div class="gitbutton"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <hr class="style2"> -->
+                  <div class="downarrow2"><a href="#experiance"><i class="fa fa-angle-double-down"></i></a></div>
+                </div>
+                <hr>
               </div>
             </div>
-            <hr>
-            <!-- <hr class="style2"> -->
-            <div class="downarrow2"><a href="#experiance"><i class="fa fa-angle-double-down"></i></a></div>
           </div>
-          <hr>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<div id="contacts" class="contact"></div>
-<!-- Footer -->
-  <a name="contact"></a>
-  <footer class="footer">
-   <h2>Get in Touch.</h2>
-   <div class="contactinfo"></div>
-   <h4 class="footerSocialmedia">
-     <a  href="https://github.com/natasharamburrun" target="_blank"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
-     <a  href="https://www.linkedin.com/in/natasharamburrun" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
-     <a  href="mailto:natasha.ramburrun84@gmail.com"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a>
-   </h4>
-   <p>Please feel free to visit my GitHub | LinkedIn </p>
-   <p>
-     © 2018 Natasha Ramburrun. All rights reserved.
-   </p>
- </footer>
+      </section>
 
-<!-- <div class="diagonal-white-left"></div> -->
-</body>
-</html>
+      <div id="contacts" class="contact"></div>
+      <!-- Footer -->
+      <a name="contact"></a>
+      <footer class="footer">
+        <h2>Get in Touch.</h2>
+        <div class="contactinfo"></div>
+        <h4 class="footerSocialmedia">
+          <a  href="https://github.com/natasharamburrun" target="_blank"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+          <a  href="https://www.linkedin.com/in/natasharamburrun" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+          <a  href="mailto:natasha.ramburrun84@gmail.com"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a>
+        </h4>
+        <p>Please feel free to visit my GitHub | LinkedIn </p>
+        <p>
+          © 2018 Natasha Ramburrun. All rights reserved.
+        </p>
+      </footer>
+
+      <!-- <div class="diagonal-white-left"></div> -->
+    </body>
+    </html>
