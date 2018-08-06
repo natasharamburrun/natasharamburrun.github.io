@@ -71,7 +71,7 @@ body {
   font-family: 'Amiri', serif;
   color: #71706e;
   h3 {
-    font-size: 32px;
+    font-size: 20px;
     h4 {
       font-size: 22px;
       color: red;
@@ -114,8 +114,17 @@ body {
 .project4language {
   display: inline-flex;
   text-align: center;
-  float: right;
+  padding: 0px;
+  float: center;
   padding-right: 0px;
+  margin-left: 50px;
+  li {
+    // line-height: 12px;
+    padding: 0px 2px;
+    color: #d3a796;
+    font-size: 12px;
+    // border-right: 1px solid #996600;
+  }
 }
 
 ul {
@@ -127,7 +136,7 @@ ul {
 }
 
 .devicon {
-  font-size: 20px;
+  font-size: 12px;
   padding: 10px 25px;
   color: #71706e;
 }
@@ -140,17 +149,18 @@ ul {
   text-align: center;
   font-family: 'Amiri', serif;
   color: #71706e;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 40px;
   margin-top: -5px;
 }
 .skills-container {
   background-color: #f4ebe8;
   color: #71706e;
+  padding: 100px;
 }
 .skills-sec {
   text-align: center;
-  margin-top: 5px;
+  // margin-top: 5px;
   padding-bottom: 10px;
   h3 {
     font-size: 18px;
@@ -173,8 +183,6 @@ ul {
 .about-container {
   text-align: center;
   margin-top: 70px;
-  // background-color: #f6f5f3;
-    // background-color: #e3e3e3;
 }
 .clearfix {
   clear: both;
@@ -190,15 +198,14 @@ ul {
 }
 
 .textAbt {
-  text-align: right;
-  position: relative;
-  max-width: 1000px;
-  padding: 10px;
-  margin: 100px;
+  text-align: center;
+  padding: 60px;
+  margin: 80px;
   margin-right: 20px;
   padding-left: 50px;
   margin-top: -0px;
-  margin-bottom: 45px;
+  margin-bottom: 65px;
+  border: 1px solid #d6d3d0;
   p {
     font-size: 18px;
     color: #71706e;
@@ -210,7 +217,7 @@ h3 {
 }
 .imgAbt img {
   // border: 1px #b7a095 solid;
-  // border-radius: 40%;
+  // border-radius: 50%;
   // padding: 30px;
   float: left;
   margin-top: 30px;
@@ -219,6 +226,7 @@ h3 {
 }
 
 //making the profile image responsive on all devices
+
 @media screen and (max-width: 600px) {
   .imgAbt img{
     float: none;
@@ -237,7 +245,13 @@ h3 {
   }
 }
 
+@media screen and (min-width: 2560px) {
+  .imgAbt img {
+    margin-top: 150px;
+  }
+}
 //making the profile about information responsive on all devices
+
 @media screen and (max-width: 600px) {
   .textAbt {
     text-align: center;
@@ -265,6 +279,16 @@ h3 {
     padding-right: 50px;
     margin-bottom: 0px;
     margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .textAbt {
+    text-align: center;
+    margin-left: 330px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
   }
 }
 
@@ -295,59 +319,54 @@ h3 {
 
 //******hero and title section******
 
+.headerimg {
+
+}
+
 .jumbotron {
-  background-image: url("../images/websiteheader5.jpg");
-  background-color: #f4ebe8;
-  background-size: 100%;
+  // background-image: url("../images/websiteheader5.jpg");
+  // background-size: 100%;
   background-size: cover;
+  object-fit: scale-down;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px 1020px;
+  background-size: 1440px 520px;
   // border: 1px #b7a095 solid;
-  min-height: 520px;
   // background-attachment: fixed;
+  padding-bottom: 0px;
 }
 
-@media screen and (max-width: 2560px) {
-  .jumbotron {
-    background-size: 2560px 620px;
+
+//making header responsive
+
+@media screen and (min-width: 2560px) {
+  .jumbotron .headerimg {
+    min-width: 2560px;
+    min-height: 620px;
   }
 }
 
-.container-title {
-  // background-color: RGB(244,235,232, 0.7);
-  // background-color: #f4ebe8;
-  // font-family: 'Amiri', serif;
-  // color: #b7a095;
-  text-align: center;
-  border: 0px;
-  margin-top: 150px;
-  // border: 1px #b7a095 solid;
-  // margin-right: -24px;
-  // margin-left: -24px;
-  // .title {
-  //   padding-top: 30px;
-  //   color: #b7a095;
-  //   font-size: 35px;
-
+@media screen and (max-width: 768px) {
+  .jumbotron .headerimg {
+    max-width: 992px;
+    max-height: 325px;
+  }
 }
 
-// @media screen and (max-width: 600x) {
-//   .container-title img {
-//     max-width: 600px;
-//   }
-// }
+@media screen and (max-width: 992px) {
+  .jumbotron .headerimg {
+    max-width: 992px;
+    max-height: 325px;
+  }
+}
 
-// .subtitle {
-//   font-size: 27px;
-//   padding-bottom: 30px;
-//   color: #b7a095;
-// }
-
-// .navbar {
-//   background-color: white;
-// }
+@media screen and (max-width: 600px) {
+  .jumbotron .headerimg {
+    max-width: 600px;
+    max-height: 325px;
+  }
+}
 
 //******arrow to return to top******
 
@@ -380,11 +399,8 @@ h3 {
   font-size: 30px;
 }
 
-// .top:hover {
-//   color: grey;
-// }
 
-/****** Top Nav ******/
+/*************** Top Nav ***************/
 
 .topnav-container {
   width: 505px;

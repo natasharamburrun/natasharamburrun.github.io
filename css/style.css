@@ -50,7 +50,7 @@ body {
   font-family: 'Amiri', serif;
   color: #71706e; }
   .inner h3 {
-    font-size: 32px; }
+    font-size: 20px; }
     .inner h3 h4 {
       font-size: 22px;
       color: red; }
@@ -70,8 +70,14 @@ body {
 .project4language {
   display: inline-flex;
   text-align: center;
-  float: right;
-  padding-right: 0px; }
+  padding: 0px;
+  float: center;
+  padding-right: 0px;
+  margin-left: 50px; }
+  .project4language li {
+    padding: 0px 2px;
+    color: #d3a796;
+    font-size: 12px; }
 
 ul {
   list-style-type: none;
@@ -80,7 +86,7 @@ ul {
     margin-bottom: 0px; }
 
 .devicon {
-  font-size: 20px;
+  font-size: 12px;
   padding: 10px 25px;
   color: #71706e; }
 
@@ -90,17 +96,17 @@ ul {
   text-align: center;
   font-family: 'Amiri', serif;
   color: #71706e;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 40px;
   margin-top: -5px; }
 
 .skills-container {
   background-color: #f4ebe8;
-  color: #71706e; }
+  color: #71706e;
+  padding: 100px; }
 
 .skills-sec {
   text-align: center;
-  margin-top: 5px;
   padding-bottom: 10px; }
   .skills-sec h3 {
     font-size: 18px;
@@ -130,15 +136,14 @@ ul {
   color: #71706e; }
 
 .textAbt {
-  text-align: right;
-  position: relative;
-  max-width: 1000px;
-  padding: 10px;
-  margin: 100px;
+  text-align: center;
+  padding: 60px;
+  margin: 80px;
   margin-right: 20px;
   padding-left: 50px;
   margin-top: -0px;
-  margin-bottom: 45px; }
+  margin-bottom: 65px;
+  border: 1px solid #d6d3d0; }
   .textAbt p {
     font-size: 18px;
     color: #71706e; }
@@ -161,6 +166,9 @@ h3 {
 @media screen and (max-width: 992px) {
   .imgAbt img {
     float: none; } }
+@media screen and (min-width: 2560px) {
+  .imgAbt img {
+    margin-top: 150px; } }
 @media screen and (max-width: 600px) {
   .textAbt {
     text-align: center;
@@ -182,6 +190,13 @@ h3 {
     padding-right: 50px;
     margin-bottom: 0px;
     margin-top: 0px; } }
+@media screen and (min-width: 2560px) {
+  .textAbt {
+    text-align: center;
+    margin-left: 330px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px; } }
 .diagonal-white-right {
   width: 101%;
   border-bottom: 80px solid white;
@@ -197,24 +212,30 @@ h3 {
   overflow-x: hidden; }
 
 .jumbotron {
-  background-image: url("../images/websiteheader5.jpg");
-  background-color: #f4ebe8;
-  background-size: 100%;
   background-size: cover;
+  object-fit: scale-down;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px 1020px;
-  min-height: 520px; }
+  background-size: 1440px 520px;
+  padding-bottom: 0px; }
 
-@media screen and (max-width: 2560px) {
-  .jumbotron {
-    background-size: 2560px 620px; } }
-.container-title {
-  text-align: center;
-  border: 0px;
-  margin-top: 150px; }
-
+@media screen and (min-width: 2560px) {
+  .jumbotron .headerimg {
+    min-width: 2560px;
+    min-height: 620px; } }
+@media screen and (max-width: 768px) {
+  .jumbotron .headerimg {
+    max-width: 992px;
+    max-height: 325px; } }
+@media screen and (max-width: 992px) {
+  .jumbotron .headerimg {
+    max-width: 992px;
+    max-height: 325px; } }
+@media screen and (max-width: 600px) {
+  .jumbotron .headerimg {
+    max-width: 600px;
+    max-height: 325px; } }
 #back-to-top {
   position: fixed;
   bottom: 40px;
@@ -241,7 +262,7 @@ h3 {
 .top {
   font-size: 30px; }
 
-/****** Top Nav ******/
+/*************** Top Nav ***************/
 .topnav-container {
   width: 505px;
   margin: 0 auto; }

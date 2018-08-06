@@ -19,8 +19,6 @@ $( document ).ready(function() {
     }
   }
 
-
-
   // function to smooth the top nav link clicks
   // Select all links with hashes
   $('a[href*="#"]')
@@ -60,6 +58,8 @@ $( document ).ready(function() {
     });
 
   // back to the top button function
+
+
 
   if ($('#back-to-top').length) {
     const scrollTrigger = 100, // px
