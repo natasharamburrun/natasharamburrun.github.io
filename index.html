@@ -15,21 +15,28 @@
 </head>
 <body>
   <!-- Navbar and header -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <a name="top"></a>
+  <a name="top"></a>
     <div class="topnav" id="myTopnav">
+      <nav class="navbar navbar-light bg-light navbar-default navbar-fixed-top">
+        <a href="#top" class="logo"><img width="65px" height="55px" src="./images/logo.png" alt="NR logo"/>
       <div class="topnav-container">
-        <a href="#about" >About</a>
-        <a href="#skills" >Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </div>
+        <a href="#about" >ABOUT</a>
+        <a href="#skills" >SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACTS</a>
       <a href="#" style="font-size:15px;" class="icon">&#9776;</a>
+      </nav>
     </div>
-  </nav>
+  </div>
 
-  <div class="jumbotron jumbotron-fluid"><img width="1440" height="420" src="./images/websiteheader5.jpg" alt="profile image" class="headerimg"/>
+  <!-- <div class="jumbotron jumbotron-fluid">
+    <img width="1440" height="745" src="./images/webheaderAug21.jpg" alt="profile image" class="headerimg"/>
+  </div> -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-title">
+      <h1 class="title">Natasha Ramburrun</h1>
+      <h2 class="subtitle">Web Developer</h2>
+    </div>
   </div>
 
   <!-- <div class="diagonal-white-right"></div> -->
@@ -37,9 +44,14 @@
   <a name="about"></a>
   <div class="about-container">
     <div class="row">
+      <div class="col-md-5 img">
+        <div class="imgAbt">
+          <img width="245" height="365" src="./images/profile-image2.jpg" alt="profile image"/>
+        </div>
+      </div>
       <div class="col-md-7">
         <div class="textAbt">
-          <h1 class="about-title">About me</h1>
+          <h1 class="about-title">ABOUT</h1>
           <hr>
           <p>Welcome to my portfolio. I am a web developer with a background in project management. Based in the vibrant city of London.</p><br>
 
@@ -48,11 +60,6 @@
           <p>Recently graduated from the web development immersive bootcamp at General Assembly. During the course, I completed projects which allowed me to be creative as well as utilise problem and logical thinking skills.</p><br>
 
           <p>Excited to continue my journey in development and continue learning new skills as a front-end developer working for either a fintech startup or an exciting fortune 500 company in the fashion/ retail industry.</p>
-        </div>
-      </div>
-      <div class="col-md-5 img">
-        <div class="imgAbt">
-          <img width="320" height="375" src="./images/profile-image2.jpg" alt="profile image"/>
         </div>
       </div>
     </div>
@@ -144,7 +151,8 @@
           </div>
           <div class="row">
             <div class="col-lg-6">
-              <img width="550" height="345" src="./images/projects/project4-portfolio.jpg" class="img-project">
+              <img width="625" height="425" src="./images/projects/project4-portfolio.jpg" class="img-project">
+              <br>
               <ul class="project4language">
                 <li><i class="devicon devicon-react-original"></i><p>React</p></li>
                 <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
@@ -156,15 +164,16 @@
               </ul>
             </div>
             <div class="col-lg-6">
-              <p class="projectdescription"> Built a fully Authenticated RESTful MERN application.
-                The application, Designer Marketplace is a luxury retail e-commerce app which allows users to buy or sell pre-owned clothes. </p>
+              <p class="projectdescription">
+                Designer Marketplace is a luxury retail e-commerce app which allows users to register and login to buy or sell pre-owned clothes.</p>
+              <p class="projectdescription"> Built a fully Authenticated RESTful MERN application using React, Express, Node.js, MongoDB/Mongoose, Strip and FileStack API.</p>
                 <div class="btn-group">
                   <div class="d-inline-block">
                     <a class="gitlink" href="https://github.com/natasharamburrun/WDI-PROJECT-4"  role="button">
-                      <div class="link-icon"><i class="fa fa-link"></i></div>
                       <div class="gitbutton"></div>
                     </a>
                   </div>
+                  <!-- <div class="link-icon"><i class="fa fa-link"></i></div> -->
                   <div class="d-inline-block">
                     <a href="https://designer-marketplace.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary" >View Project
                     </button></a>
@@ -184,12 +193,13 @@
           <div class="inner">
             <hr>
             <div class="text">
-              <h3 class="text-center">WHAT'S IN YOUR FRIDGE</h3>
+              <h3 class="text-center">WHAT'S IN YOUR FRIDGE?</h3>
               <hr>
             </div>
             <div class="row">
               <div class="col-lg-6">
-                <img width="550" height="375" src="./images/projects/project3-portfolio.jpg" class="img-project">
+                <img width="625" height="425" src="./images/projects/project3-portfolio.jpg" class="img-project">
+                <br>
                 <ul class="project4language">
                   <li><i class="devicon devicon-angularjs-plain"></i><p>AngularJS</p></li>
                   <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
@@ -230,11 +240,13 @@
               <hr>
               <div class="text">
                 <h3 class="text-center">HAIR STYLIST</h3>
+                <hr>
                 <!-- <h4 class="text-right">EJS, Node.js & MongoDB</h4> -->
               </div>
               <div class="row">
                 <div class="col-lg-6">
-                  <img width="550" height="375" src="./images/projects/project2-portfolio.jpg" class="img-project">
+                  <img width="625" height="425" src="./images/projects/project2-portfolio.jpg" class="img-project">
+                  <br>
                   <ul class="project4language">
                     <li><i class="devicon devicon-jquery-plain"></i><p>jQuery</p></li>
                     <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
@@ -275,11 +287,13 @@
                 <hr>
                 <div class="text">
                   <h3 class="text-center">MOUSE MAZE</h3>
+                  <hr>
                   <!-- <h4 class="text-right">JavaScript, JQuery</h4> -->
                 </div>
                 <div class="row">
                   <div class="col-lg-6">
-                    <img width="550" height="375" src="./images/projects/project1-portfolio.jpg" class="img-project">
+                    <img width="625" height="425" src="./images/projects/project1-portfoliov2.jpg" class="img-project">
+                    <br>
                     <ul class="project4language">
                       <li><i class="devicon devicon-jquery-plain"></i><p>jQuery</p></li>
                       <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
@@ -299,7 +313,7 @@
                     </div>
                   </div>
                   <!-- <hr class="style2"> -->
-                  <div class="downarrow2"><a href="#experiance"><i class="fa fa-angle-double-down"></i></a></div>
+                  <!-- <div class="downarrow2"><a href="#experiance"><i class="fa fa-angle-double-down"></i></a></div> -->
                 </div>
                 <hr>
               </div>

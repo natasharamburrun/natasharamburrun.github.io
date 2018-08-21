@@ -59,6 +59,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
+  margin-left: 20px;
 }
 
 
@@ -87,7 +88,8 @@ body {
   text-align: justify;
   // margin-right: -50px;
   word-spacing: 1px;
-  padding: 50px;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -154,9 +156,9 @@ ul {
   margin-top: -5px;
 }
 .skills-container {
-  background-color: #f4ebe8;
+  background-color: #efeaea;
   color: #71706e;
-  padding: 100px;
+  padding: 50px;
 }
 .skills-sec {
   text-align: center;
@@ -198,14 +200,14 @@ ul {
 }
 
 .textAbt {
-  text-align: center;
-  padding: 60px;
+  text-align: left;
+  padding: 45px;
   margin: 80px;
-  margin-right: 20px;
-  padding-left: 50px;
+  margin-left: 20px;
+  padding-right: 50px;
   margin-top: -0px;
   margin-bottom: 65px;
-  border: 1px solid #d6d3d0;
+  // border: 1px solid #d6d3d0;
   p {
     font-size: 18px;
     color: #71706e;
@@ -219,7 +221,7 @@ h3 {
   // border: 1px #b7a095 solid;
   // border-radius: 50%;
   // padding: 30px;
-  float: left;
+  float: right;
   margin-top: 30px;
   margin-left: 30px;
   margin-bottom: 60px;
@@ -285,8 +287,8 @@ h3 {
 @media screen and (min-width: 2560px) {
   .textAbt {
     text-align: center;
-    margin-left: 330px;
-    padding-right: 50px;
+    margin-right: 330px;
+    padding-right: 200px;
     margin-bottom: 100px;
     margin-top: 100px;
   }
@@ -324,18 +326,37 @@ h3 {
 }
 
 .jumbotron {
-  // background-image: url("../images/websiteheader5.jpg");
-  // background-size: 100%;
-  background-size: cover;
-  object-fit: scale-down;
-  -webkit-background-size: cover;
+  background-image: url("../images/websiteheader5.png");
+  background-size: 1440px 720px;
   background-repeat: no-repeat;
+  object-fit: scale-down;
+  background-size: 100%;
+  background-size: cover;
+  min-height: 665px;
   background-position: center;
-  background-size: 1440px 520px;
-  // border: 1px #b7a095 solid;
-  // background-attachment: fixed;
-  padding-bottom: 0px;
+  margin-top: 65px;
+  opacity: 0.6;
 }
+
+.container-title {
+  background-position: center;
+  font-family: 'Amiri', serif;
+  color: grey;
+  text-align: center;
+  margin-top: 270px;
+
+  }
+  .container-title .title {
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 100;
+  }
+
+.subtitle {
+  font-size: 27px;
+  padding-bottom: 30px;
+}
+
 
 
 //making header responsive
@@ -402,19 +423,26 @@ h3 {
 
 /*************** Top Nav ***************/
 
+.navbar-default {
+  // background-color: #edded7;
+  background-color: white;
+}
+
 .topnav-container {
-  width: 505px;
-  margin: 0 auto;
+  // width: 505px;
+  margin-top: 15px;
+  float: right;
+  margin-right: 5px;
 }
 
 .topnav {
-  // background-color: #f1f1f1;
-    background-color: #edded7;
     overflow: hidden;
     width: 100%;
+
 }
 
 .topnav a {
+  // background-color: #edded7;
     float: left;
     display: block;
     color: #b7a095;
@@ -435,6 +463,10 @@ h3 {
 
 .topnav .icon {
     display: none;
+}
+
+.logo {
+
 }
 
 //link to hide all except first one which is home
