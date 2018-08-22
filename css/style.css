@@ -37,20 +37,9 @@ body {
 
 .project-title {
   margin-top: 70px;
-  font-weight: bolder;
   font-size: 25px;
   text-align: center;
-  font-family: 'Amiri', serif;
   color: #71706e; }
-
-.inner {
-  font-family: 'Amiri', serif;
-  color: #71706e; }
-  .inner h3 {
-    font-size: 20px; }
-    .inner h3 h4 {
-      font-size: 22px;
-      color: red; }
 
 .projectdescription {
   font-size: 18px;
@@ -58,12 +47,6 @@ body {
   word-spacing: 1px;
   padding-top: 30px;
   padding-left: 20px; }
-
-@media screen and (min-width: 1440px) {
-  .projectdescription {
-    margin-right: -50px; } }
-.anchorDiv2 {
-  height: 50px; }
 
 .project4language {
   display: inline-flex;
@@ -89,7 +72,6 @@ ul {
   color: #71706e; }
 
 .experience-title {
-  font-weight: bold;
   font-size: 25px;
   text-align: center;
   color: #71706e;
@@ -104,12 +86,11 @@ ul {
   float: left; }
 
 .skills-title {
-  font-weight: bold;
   font-size: 25px;
   text-align: center;
   color: #71706e;
   padding-top: 50px;
-  padding-bottom: 40px; }
+  padding-bottom: 10px; }
 
 .skills-container {
   float: right; }
@@ -131,14 +112,16 @@ ul {
   border-right: 1px solid #996600; }
 
 .wrapper {
-  background-color: #efeaea;
   display: flex;
   padding-left: 200px;
-  padding-top: 50px;
   padding-bottom: 50px; }
 
+.skills-section {
+  padding-top: 25px;
+  background-color: #efeaea; }
+
 .about-section {
-  margin-top: 120px; }
+  margin-top: 140px; }
 
 .about-container {
   text-align: center; }
@@ -148,7 +131,6 @@ ul {
   display: table; }
 
 .about-title {
-  font-weight: bolder;
   font-size: 25px;
   text-align: center;
   font-family: 'Amiri', serif;
@@ -291,7 +273,6 @@ h3 {
 
 .topnav-container {
   margin-top: 15px;
-  float: right;
   margin-right: 5px; }
 
 .topnav {

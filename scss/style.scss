@@ -52,41 +52,33 @@ body {
 
 .project-title {
   margin-top: 70px;
-  font-weight: bolder;
   font-size: 25px;
   text-align: center;
-  font-family: 'Amiri', serif;
   color: #71706e;
 }
 
 .img-project {
   // display: block;
-  // margin-left: auto;
-  // margin-right: auto;
   // padding-top: 20px;
   // margin-left: 20px;
 }
+//
 
-
-.project4{
-  // height: 60px;
-  // width: 100%;
-}
-
-.inner {
-  font-family: 'Amiri', serif;
-  color: #71706e;
-  h3 {
-    font-size: 20px;
-    h4 {
-      font-size: 22px;
-      color: red;
-      p {
-      }
-    }
-  }
-}
-
+//
+// .inner {
+//   font-family: 'Amiri', serif;
+//   color: #71706e;
+//   h3 {
+//     font-size: 20px;
+//     h4 {
+//       font-size: 22px;
+//       color: red;
+//       p {
+//       }
+//     }
+//   }
+// }
+//
 .projectdescription {
   // padding: 20px;
   font-size: 18px;
@@ -96,22 +88,22 @@ body {
   padding-top: 30px;
   padding-left: 20px;
 }
-
-@media screen and (min-width: 1440px) {
-  .projectdescription {
-    margin-right: -50px;
-  }
-}
-
-  // .anchorDiv{
-  //   // border: red 1px solid;
-  //   height: 20px;
-  //   // width: 100%;
-  // }
-  //
-  .anchorDiv2 {
-    height: 50px;
-  }
+//
+// @media screen and (min-width: 1440px) {
+//   .projectdescription {
+//     margin-right: -50px;
+//   }
+// }
+//
+//   // .anchorDiv{
+//   //   // border: red 1px solid;
+//   //   height: 20px;
+//   //   // width: 100%;
+//   // }
+//   //
+//   .anchorDiv2 {
+//     height: 50px;
+//   }
 
 //******GIThub link*****
 
@@ -150,7 +142,6 @@ ul {
 //eduction section
 
 .experience-title {
-  font-weight: bold;
   font-size: 25px;
   text-align: center;
   color: #71706e;
@@ -172,12 +163,11 @@ ul {
 //skills section
 
 .skills-title {
-  font-weight: bold;
   font-size: 25px;
   text-align: center;
   color: #71706e;
   padding-top: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 .skills-container {
   // color: #71706e;
@@ -205,18 +195,21 @@ ul {
 }
 
 .wrapper {
-  background-color: #efeaea;
   display: flex;
   padding-left: 200px;
-  padding-top: 50px;
   padding-bottom: 50px;
 
 }
 
+.skills-section {
+  padding-top: 25px;
+  background-color: #efeaea;
+
+}
 //******about me******
 
 .about-section {
-  margin-top: 120px;
+  margin-top: 140px;
   // margin-bottom: 150px;
 }
 
@@ -229,7 +222,6 @@ ul {
 }
 
 .about-title {
-  font-weight: bolder;
   font-size: 25px;
   text-align: center;
   font-family: 'Amiri', serif;
@@ -467,7 +459,6 @@ h3 {
 .topnav-container {
   // width: 505px;
   margin-top: 15px;
-  float: right;
   margin-right: 5px;
 }
 
