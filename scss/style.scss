@@ -1,6 +1,7 @@
 //******ALL******
 
 body {
+  // font-family: 'Montserrat', sans-serif;
   font-family: 'Amiri', serif;
   color: #b7a095;
 }
@@ -45,6 +46,10 @@ body {
 
 //******Portfolio******
 
+.portfolio-sec {
+  margin-top: 100px;
+}
+
 .project-title {
   margin-top: 70px;
   font-weight: bolder;
@@ -55,11 +60,11 @@ body {
 }
 
 .img-project {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  margin-left: 20px;
+  // display: block;
+  // margin-left: auto;
+  // margin-right: auto;
+  // padding-top: 20px;
+  // margin-left: 20px;
 }
 
 
@@ -142,6 +147,27 @@ ul {
   padding: 10px 25px;
   color: #71706e;
 }
+//eduction section
+
+.experience-title {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: #71706e;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.experience-wrapper {
+  display: inline-flex;
+}
+
+.experience-container {
+  background-color: #efeaea;
+  float: left;
+  // padding-bottom: 50px;
+}
+
 
 //skills section
 
@@ -149,18 +175,18 @@ ul {
   font-weight: bold;
   font-size: 25px;
   text-align: center;
-  font-family: 'Amiri', serif;
   color: #71706e;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 40px;
-  margin-top: -5px;
 }
 .skills-container {
-  background-color: #efeaea;
-  color: #71706e;
-  padding: 50px;
+  // color: #71706e;
+  // padding: 50px;
+  // margin-top: 50px;
+  float: right;
 }
 .skills-sec {
+  margin-left: 120px;
   text-align: center;
   // margin-top: 5px;
   padding-bottom: 10px;
@@ -170,7 +196,6 @@ ul {
     margin: 0px;
   }
 }
-
 .skills {
   line-height: 30px;
   padding: 0px 10px;
@@ -179,12 +204,24 @@ ul {
   border-right: 1px solid #996600;
 }
 
+.wrapper {
+  background-color: #efeaea;
+  display: flex;
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
 
 //******about me******
 
+.about-section {
+  margin-top: 120px;
+  // margin-bottom: 150px;
+}
+
 .about-container {
   text-align: center;
-  margin-top: 70px;
 }
 .clearfix {
   clear: both;
@@ -201,13 +238,10 @@ ul {
 
 .textAbt {
   text-align: left;
-  padding: 45px;
-  margin: 80px;
+  margin: 15px;
   margin-left: 20px;
-  padding-right: 50px;
-  margin-top: -0px;
+  padding-right: 300px;
   margin-bottom: 65px;
-  // border: 1px solid #d6d3d0;
   p {
     font-size: 18px;
     color: #71706e;
@@ -221,10 +255,11 @@ h3 {
   // border: 1px #b7a095 solid;
   // border-radius: 50%;
   // padding: 30px;
+  margin-top: 80px;
   float: right;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 60px;
+  // margin-top: 30px;
+  // margin-left: 30px;
+  // margin-bottom: 60px;
 }
 
 //making the profile image responsive on all devices
@@ -232,6 +267,7 @@ h3 {
 @media screen and (max-width: 600px) {
   .imgAbt img{
     float: none;
+    margin-top: 0px;
   }
 }
 
@@ -244,14 +280,15 @@ h3 {
 @media screen and (max-width: 992px) {
   .imgAbt img{
     float: none;
+    margin-top: 0px;
   }
 }
 
-@media screen and (min-width: 2560px) {
-  .imgAbt img {
-    margin-top: 150px;
-  }
-}
+// @media screen and (min-width: 2560px) {
+//   .imgAbt img {
+//     margin-top: 150px;
+//   }
+// }
 //making the profile about information responsive on all devices
 
 @media screen and (max-width: 600px) {
@@ -280,19 +317,19 @@ h3 {
     margin-left: 20px;
     padding-right: 50px;
     margin-bottom: 0px;
-    margin-top: 0px;
+    // margin-top: 0px;
   }
 }
 
-@media screen and (min-width: 2560px) {
-  .textAbt {
-    text-align: center;
-    margin-right: 330px;
-    padding-right: 200px;
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-}
+// @media screen and (min-width: 2560px) {
+//   .textAbt {
+//     text-align: center;
+//     margin-right: 330px;
+//     padding-right: 200px;
+//     margin-bottom: 100px;
+//     margin-top: 100px;
+//   }
+// }
 
 
 //******break******
@@ -334,7 +371,7 @@ h3 {
   background-size: cover;
   min-height: 665px;
   background-position: center;
-  margin-top: 65px;
+  margin-top: 75px;
   opacity: 0.6;
 }
 
@@ -343,14 +380,13 @@ h3 {
   font-family: 'Amiri', serif;
   color: grey;
   text-align: center;
-  margin-top: 270px;
+  margin-top: 220px;
 
   }
-  .container-title .title {
-    padding-top: 20px;
-    font-size: 35px;
-    font-weight: 100;
-  }
+.container-title .title {
+  padding-top: 20px;
+  font-size: 45px;
+}
 
 .subtitle {
   font-size: 27px;
@@ -451,6 +487,7 @@ h3 {
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder;
+    letter-spacing: 2px;
 }
 
 .topnav a:hover {
@@ -458,11 +495,11 @@ h3 {
 }
 
 .active {
-    color: white;
+  color: white;
 }
 
 .topnav .icon {
-    display: none;
+  display: none;
 }
 
 .logo {
