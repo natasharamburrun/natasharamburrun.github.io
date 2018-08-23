@@ -208,7 +208,8 @@ body {
   text-align: center;
   padding: 0px;
   float: center;
-  padding-right: 0px; }
+  padding-right: 0px;
+  padding-top: 10px; }
   .project4language li {
     line-height: 12px;
     padding: 0px 2px;
@@ -246,7 +247,7 @@ ul {
   font-size: 18px;
   text-align: justify;
   word-spacing: 1px;
-  padding-top: 30px; }
+  padding-top: 10px; }
 
 .inner {
   margin-bottom: 50px; }
