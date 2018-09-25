@@ -3,7 +3,7 @@ body {
   color: #71706e; }
 
 .navbar-default {
-  background-color: white; }
+  background-color: #464658; }
 
 .topnav-container {
   margin-top: 20px;
@@ -86,10 +86,10 @@ body {
   object-fit: scale-down;
   background-size: 100%;
   background-size: cover;
-  min-height: 665px;
+  min-height: 715px;
   background-position: center;
   margin-top: 75px;
-  color: #425154; }
+  color: #464658; }
 
 .container-title {
   background-position: center;
@@ -148,7 +148,8 @@ body {
   .imgAbt img {
     float: none; } }
 .about-section {
-  margin-top: 130px; }
+  margin-top: 130px;
+  padding-bottom: 20px; }
 
 .about-title {
   font-size: 25px;
@@ -181,12 +182,13 @@ body {
 .wrapper {
   display: flex;
   padding-left: 200px;
-  padding-bottom: 50px; }
+  padding-bottom: 100px; }
 
 .skills-title {
   font-size: 25px;
   color: #71706e;
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-bottom: 20px; }
 
 .skills-sec {
   margin-left: 120px;
@@ -207,7 +209,8 @@ body {
   font-size: 25px;
   text-align: center;
   color: #71706e;
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-bottom: 20px; }
 
 .experience-wrapper {
   display: inline-flex; }
@@ -237,7 +240,8 @@ ul {
   color: #71706e; }
 
 .portfolio-sec {
-  margin-top: 100px; }
+  margin-top: 100px;
+  padding-bottom: 20px; }
 
 .project-title {
   margin-top: 70px;
@@ -287,15 +291,15 @@ ul {
 
 .footer {
   text-align: center;
-  background-color: #edded7;
-  opacity: 0.6;
+  background-color: #464658;
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  color: #b7a095; }
 
 .footerSocialmedia {
   padding: 20px; }
   .footerSocialmedia a {
-    color: #71706e;
+    color: #b7a095;
     padding: 40px; }
     .footerSocialmedia a p {
       padding: 10px; }
