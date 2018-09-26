@@ -1,11 +1,11 @@
 body {
-  font-family: 'Lora', serif;
-  color: #71706e; }
+  color: #71706e;
+  font-family: 'Oswald', sans-serif; }
 
 .navbar-default {
   background-color: #464658; }
 
-.topnav-container {
+.navbar-end {
   margin-top: 20px;
   margin-right: 5px; }
 
@@ -22,7 +22,8 @@ body {
   text-decoration: none;
   font-size: 20px;
   font-weight: bolder;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-family: 'Lora', serif; }
 
 .topnav a:hover {
   color: grey; }
@@ -154,16 +155,17 @@ body {
 .about-title {
   font-size: 25px;
   text-align: center;
-  color: #71706e; }
+  color: #71706e;
+  font-family: 'Lora', serif; }
 
 .textAbt {
-  text-align: left;
+  text-align: justify;
   margin: 15px;
   margin-left: 20px;
-  padding-right: 300px;
+  padding-right: 285px;
   margin-bottom: 65px; }
   .textAbt p {
-    font-size: 18px;
+    font-size: 16px;
     color: #71706e; }
 
 .imgAbt img {
@@ -188,7 +190,8 @@ body {
   font-size: 25px;
   color: #71706e;
   padding-top: 50px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-family: 'Lora', serif; }
 
 .skills-sec {
   margin-left: 120px;
@@ -210,7 +213,8 @@ body {
   text-align: center;
   color: #71706e;
   padding-top: 50px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-family: 'Lora', serif; }
 
 .experience-wrapper {
   display: inline-flex; }
@@ -247,7 +251,8 @@ ul {
   margin-top: 70px;
   font-size: 25px;
   text-align: center;
-  color: #71706e; }
+  color: #71706e;
+  font-family: 'Lora', serif; }
 
 .projectbox {
   text-align: left;
@@ -257,7 +262,7 @@ ul {
   padding: 20px; }
 
 .projectdescription {
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
   word-spacing: 1px;
   padding-top: 10px; }
