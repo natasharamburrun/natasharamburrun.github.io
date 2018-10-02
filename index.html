@@ -6,7 +6,6 @@
   <script src="js/app.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css"
   <link href="https://fonts.googleapis.com/css?family=Muli|Amiri|Cinzel|Lato|Lora|Montserrat|Oswald|Playfair+Display" rel="stylesheet">
   <link rel="shortcut icon" href="images/NRlogo-thicker.png">
@@ -15,39 +14,46 @@
   <title>Natasha Ramburrun | Web developer</title>
 </head>
 <body>
-  <div class="topnav" id="myTopnav">
-    <nav class="navbar navbar-light bg-light navbar-default navbar-fixed-top">
-      <a href="#top"><img width="65px" height="40px" src="./images/nrlogo.png" alt="NR logo"></a>
 
+  <!-- navbar -->
+  <div class="topnav" id="myTopnav">
+    <nav class="navbar navbar-default is-fixed-top">
+      <a href="#top"><img width="65px" height="40px" src="./images/nrlogo.png" alt="NR logo"></a>
         <div class="navbar-end">
           <a href="#about" >ABOUT</a>
           <a href="#skills" >SKILLS</a>
           <a href="#projects">PROJECTS</a>
-          <!-- <a href="#" style="font-size:15px;" class="icon">&#9776;</a> -->
         </nav>
       </div>
     </div>
     <a href="#" id="back-to-top" title="Back to top"><i class="fas fa-angle-double-up top"></i></a>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container-title">
-      <h1 class="title">NATASHA <br> RAMBURRUN</h1>
-      <hr class="underline">
-      <h2 class="subtitle">Web Developer | Project Manager</h2>
+  <!-- header -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container-title">
+        <h1 class="title">
+          NATASHA <br> RAMBURRUN
+        </h1>
+          <hr class="underline">
+        <h2 class="subtitle">
+          Web Developer | Project Manager
+        </h2>
+      </div>
     </div>
-  </div>
+  </section>
   <!-- About me -->
   <a name="about"></a>
   <div class="about-container">
     <section class="about-section">
       <h1 class="about-title">ABOUT</h1>
       <hr class="titleUnderline">
-      <div class="row">
-        <div class="col-md-5 img">
+      <div class="columns">
+        <div class="column is-one-half">
           <div class="imgAbt">
             <img width="175" height="275" src="./images/profile-image2.jpg" alt="profile image"/>
           </div>
         </div>
-        <div class="col-md-7">
+        <div class="column is-one-half">
           <div class="textAbt">
             <p>I’m a web developer coming from a project management background. My interest in development sparked when I worked closely with the technical teams, and this provided me with an understanding of the industry which gave me a desire to learn more.</p>
 
@@ -67,9 +73,9 @@
       <h2 class="skills-title">SKILLS & EXPERIENCE</h2>
       <hr class="titleUnderline">
       <div class="wrapper">
-        <!-- //experiance and education -->
+        <!-- experiance and education -->
         <div class= "experience-container">
-          <h2 class="experience-title">Developer Experience</h2>
+          <h2 class="skillexperience-title">Developer Experience</h2>
           <div class="experience-wrapper">
             <div class="workexperience1">
               <img width="195" height="40" src="images/GA.png"  alt="general assembly logo">
@@ -83,9 +89,9 @@
         <div class= "skills-container">
           <section class="skills-box" id="section-three">
             <div class="skills-sec">
-              <div class="col s12 m6 center-align">
-                <h2 class="skills-title">Developer Skills & Technologies</h2>
-                <div>
+              <div class="column center-align">
+                <h2 class="skillexperience-title">Developer Skills & Technologies</h2>
+                <div class="skillparagraph">
                   <p>
                     <strong>Languages</strong>
                     <span class="skills">JavaScript</span>
@@ -151,14 +157,14 @@
           <div class="container">
             <div class="inner">
               <div class="text">
-                <h3 class="project-name text-center">DESIGNER MARKETPLACE</h3>
+                <h3 class="project-name">DESIGNER MARKETPLACE</h3>
               </div>
-              <div class="row">
-                <div class="col-lg-6">
+              <div class="columns">
+                <div class="column is-half">
                   <img width="625" height="425" src="./images/projects/project4-portfoliov1.jpg" class="img-project">
                   <br>
                 </div>
-                <div class="col-lg-6">
+                <div class="column is-half">
                   <div class="projectbox">
                   <ul class="project4language">
                     <h4 class="text">Build:</h4>
@@ -189,10 +195,10 @@
         <div class="container">
           <div class="inner">
             <div class="text">
-              <h3 class="project-name text-center">WHAT'S IN YOUR FRIDGE?</h3>
+              <h3 class="project-name">WHAT'S IN YOUR FRIDGE?</h3>
             </div>
-            <div class="row">
-              <div class="col-lg-6">
+            <div class="columns">
+              <div class="column is-half">
                 <div class="projectbox">
                   <ul class="project4language">
                     <h4 class="text">Build:</h4>
@@ -213,7 +219,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="column is-half">
                   <img width="625" height="425" src="./images/projects/project3-portfoliov1.jpg" class="img-project">
                   <br>
                 </div>
@@ -225,14 +231,14 @@
           <div class="container">
             <div class="inner">
               <div class="text">
-                <h3 class="project-name text-center">HAIR STYLIST</h3>
+                <h3 class="project-name">HAIR STYLIST</h3>
               </div>
-              <div class="row">
-                <div class="col-lg-6">
+              <div class="columns">
+                <div class="column is-half">
                   <img width="625" height="425" src="./images/projects/project2-portfoliov3.jpg" class="img-project">
                   <br>
                 </div>
-                <div class="col-lg-6">
+                <div class="column is-half">
                   <div class="projectbox">
                     <ul class="project4language">
                       <h4 class="text">Build:</h4>
@@ -266,10 +272,10 @@
         <div class="container">
           <div class="inner">
             <div class="text">
-              <h3 class="project-name text-center">TOM AND JERRY'S MOUSE MAZE</h3>
+              <h3 class="project-name">TOM AND JERRY'S MOUSE MAZE</h3>
             </div>
-            <div class="row">
-              <div class="col-lg-6">
+            <div class="columns">
+              <div class="column is-half">
                 <div class="projectbox">
                   <ul class="project4language">
                     <h4 class="text">Build:</h4>
@@ -288,7 +294,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="column is-half">
                 <img width="625" height="425" src="./images/projects/project1-portfoliov2.jpg" class="img-project">
                 <br>
               </div>

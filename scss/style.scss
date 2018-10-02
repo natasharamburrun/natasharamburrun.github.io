@@ -122,7 +122,7 @@ body {
 //hero and title section
 //**********************
 
-.jumbotron {
+.hero-body {
   background-image: url("../images/websiteheader5.png");
   // background-color: #edded7;
   background-size: 1440px 720px;
@@ -178,51 +178,51 @@ body {
 //profile about info and pic- Mobile
 //***************************
 
-@media screen and (max-width: 600px) {
-  .textAbt {
-    text-align: center;
-    margin-left: 20px;
-    padding-right: 50px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .textAbt {
-    text-align: center;
-    margin-left: 20px;
-    padding-right: 50px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-}
-
-
-
-@media screen and (max-width: 992px) {
-  .textAbt {
-    p {
-      // padding-left: 300px;
-      text-align: center;
-      // min-width: 800px;
-    }
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .imgAbt img{
-    float: none;
-    // margin-right: 400px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .row {
-    display: block;
-    // margin-right: 400px;
-  }
-}
+// @media screen and (max-width: 600px) {
+//   .textAbt {
+//     text-align: center;
+//     margin-left: 20px;
+//     padding-right: 50px;
+//     margin-bottom: 0px;
+//     margin-top: 0px;
+//   }
+// }
+//
+// @media screen and (max-width: 768px) {
+//   .textAbt {
+//     text-align: center;
+//     margin-left: 20px;
+//     padding-right: 50px;
+//     margin-bottom: 0px;
+//     margin-top: 0px;
+//   }
+// }
+//
+//
+//
+// @media screen and (max-width: 992px) {
+//   .textAbt {
+//     p {
+//       // padding-left: 300px;
+//       text-align: center;
+//       // min-width: 800px;
+//     }
+//   }
+// }
+//
+// @media screen and (max-width: 992px) {
+//   .imgAbt img{
+//     float: none;
+//     // margin-right: 400px;
+//   }
+// }
+//
+// @media screen and (max-width: 992px) {
+//   .row {
+//     display: block;
+//     // margin-right: 400px;
+//   }
+// }
 // @media screen and (min-width: 2560px) {
 //   .textAbt {
 //     text-align: center;
@@ -237,18 +237,18 @@ body {
 //profile image - mobile
 //**********************
 
-@media screen and (max-width: 600px) {
-  .imgAbt img{
-    float: none;
-    margin-top: 0px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .imgAbt img{
-    float: none;
-  }
-}
+// @media screen and (max-width: 600px) {
+//   .imgAbt img{
+//     float: none;
+//     margin-top: 0px;
+//   }
+// }
+//
+// @media screen and (max-width: 768px) {
+//   .imgAbt img{
+//     float: none;
+//   }
+// }
 
 
 //********
@@ -269,9 +269,8 @@ body {
 
 .textAbt {
   text-align: justify;
-  margin: 15px;
-  margin-left: 20px;
-  padding-right: 285px;
+  margin-top: 15px;
+  padding-right: 200px;
   margin-bottom: 65px;
   p {
     font-size: 16px;
@@ -285,6 +284,7 @@ body {
   float: right;
   margin-top: 30px;
   margin-left: 30px;
+  margin-right: 60px;
   margin-bottom: 60px;
 }
 
@@ -293,7 +293,7 @@ body {
 //**************
 
 .skills-section {
-  padding-top: 25px;
+  padding-top: 60px;
   background-color: #efeaea;
     // background-color: #edded7;
   text-align: center;
@@ -309,8 +309,6 @@ body {
   color: #71706e;
   padding-top: 50px;
   font-family: 'Lora', serif;
-  padding-bottom: 20px;
-
 }
 .skills-sec {
   // margin-left: 120px;
@@ -333,11 +331,15 @@ body {
   font-size: 18px;
 }
 
+.skillparagraph p {
+  padding: 5px;
+}
+
 //****************
 //eduction section
 //****************
 
-.experience-title {
+.skillexperience-title {
   font-size: 25px;
   text-align: center;
   color: #71706e;
@@ -409,6 +411,7 @@ ul {
 .project-name {
   padding: 20px;
   font-family: 'Lora', serif;
+  text-align: center;
 
 }
 
