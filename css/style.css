@@ -235,7 +235,8 @@ ul {
 .project-name {
   padding: 20px;
   font-family: 'Lora', serif;
-  text-align: center; }
+  text-align: center;
+  font-size: 18px; }
 
 .projectdescription {
   font-size: 16px;
