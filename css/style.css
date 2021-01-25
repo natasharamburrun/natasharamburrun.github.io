@@ -1,63 +1,38 @@
 body {
   color: #71706e;
-  font-family: 'Oswald', sans-serif; }
+  font-family: kepler-std-semicondensed-dis, serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-style: normal;
+}
 
 .titleUnderline {
   width: 20%;
   margin: 0 auto;
-  border-top: 2px solid #b7a095; }
-
-.navbar-default {
-  background-color: #464658; }
-
-.navbar-end {
   margin-top: 20px;
-  margin-right: 5px; }
+  margin-bottom: 20px;
+  border-top: 2px solid #b7a095;
+}
 
-.topnav {
-  overflow: hidden;
-  width: 100%; }
+.navbar {
+  background-color: white;
+  padding: 20px;
+}
 
-.topnav a {
-  float: left;
-  display: block;
+.navbar-item {
   color: #b7a095;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px;
   text-decoration: none;
   font-size: 20px;
   font-weight: bolder;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+}
 
-.topnav a:hover {
-  color: grey; }
+.navbar-burger {
+  color: #b7a095;
+}
 
-.active {
-  color: white; }
-
-.topnav .icon {
-  display: none; }
-
-@media screen and (max-width: 768px) {
-  .topnav a {
-    display: none; }
-
-  .topnav a.icon {
-    float: right;
-    display: block; } }
-@media screen and (max-width: 768px) {
-  .topnav.responsive {
-    position: relative; }
-
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0; }
-
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left; } }
 #back-to-top {
   position: fixed;
   bottom: 40px;
@@ -73,72 +48,42 @@ body {
   border-radius: 2px;
   text-decoration: none;
   transition: opacity 0.2s ease-out;
-  opacity: 0; }
+  opacity: 0;
+}
 
 #back-to-top.show {
-  opacity: 1; }
+  opacity: 1;
+}
 
 #content {
-  height: 2000px; }
+  height: 2000px;
+}
 
 .top {
-  font-size: 30px; }
-
-.hero-body {
-  background-image: url("../images/websiteheader5.png");
-  background-size: 1440px 720px;
-  background-repeat: no-repeat;
-  object-fit: scale-down;
-  background-size: 100%;
-  background-size: cover;
-  min-height: 715px;
-  background-position: center;
-  margin-top: 75px;
-  color: #464658; }
-
-.container-title {
-  background-position: center;
-  text-align: center;
-  margin-top: 220px;
-  color: black; }
-
-.container-title .title {
-  font-family: 'Cinzel', serif;
-  padding-top: 20px;
-  font-size: 45px;
-  color: #425154;
-  letter-spacing: 10px; }
-
-.subtitle {
-  font-size: 27px;
-  padding-bottom: 30px;
-  letter-spacing: 2px;
-  color: #425154; }
-
-.underline {
-  width: 33%;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  border-top: 2px solid #425154; }
+  font-size: 30px;
+}
 
 .about-section {
-  margin-top: 130px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 .about-title {
   font-size: 25px;
   text-align: center;
   color: #71706e;
-  font-family: 'Lora', serif; }
+  font-style: italic;
+}
 
 .textAbt {
-  text-align: justify;
+  text-align: right;
   margin-top: 15px;
   padding-right: 200px;
-  margin-bottom: 65px; }
-  .textAbt p {
-    font-size: 16px;
-    color: #71706e; }
+  margin-bottom: 65px;
+}
+.textAbt p {
+  font-size: 20px;
+  color: #71706e;
+}
 
 .imgAbt img {
   border-radius: 50%;
@@ -147,41 +92,50 @@ body {
   margin-top: 30px;
   margin-left: 30px;
   margin-right: 60px;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+}
 
 .skills-section {
   padding-top: 60px;
   background-color: #efeaea;
-  text-align: center; }
+  text-align: center;
+}
 
 .wrapper {
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+}
 
 .skills-title {
   font-size: 25px;
   color: #71706e;
   padding-top: 50px;
-  font-family: 'Lora', serif; }
+  font-style: italic;
+}
 
 .skills-sec {
-  text-align: center; }
-  .skills-sec h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0px; }
+  text-align: center;
+}
+.skills-sec h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
 
 .skills {
   line-height: 30px;
   padding: 0px 10px;
   color: #d3a796;
   font-size: 18px;
-  border-right: 1px solid #996600; }
+  border-right: 1px solid #996600;
+}
 
 .skills-sec {
-  font-size: 18px; }
+  font-size: 18px;
+}
 
-.skillparagraph p {
-  padding: 5px; }
+.skillsparagraph p {
+  padding: 5px;
+}
 
 .skillexperience-title {
   font-size: 25px;
@@ -189,10 +143,12 @@ body {
   color: #71706e;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: 'Lora', serif; }
+  font-style: italic;
+}
 
 .experience-wrapper {
-  display: inline-flex; }
+  display: inline-flex;
+}
 
 .project4language {
   display: inline-flex;
@@ -200,66 +156,79 @@ body {
   padding: 0px;
   float: center;
   padding-right: 0px;
-  padding-top: 10px; }
-  .project4language li {
-    padding: 0px 5px;
-    color: #d3a796;
-    font-size: 12px; }
+  padding-top: 10px;
+}
+.project4language li {
+  padding: 0px 5px;
+  color: #d3a796;
+  font-size: 12px;
+}
 
 ul {
   list-style-type: none;
-  margin-bottom: 0px; }
-  ul p {
-    margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
+ul p {
+  margin-bottom: 0px;
+}
 
 .devicon {
   font-size: 12px;
   padding: 10px 25px;
-  color: #71706e; }
+  color: #71706e;
+}
 
 .portfolio-sec {
   margin-top: 100px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 .project-title {
   margin-top: 70px;
   font-size: 25px;
   text-align: center;
   color: #71706e;
-  font-family: 'Lora', serif; }
+  font-style: italic;
+}
 
 .projectbox {
   text-align: left;
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .project-name {
   padding: 20px;
-  font-family: 'Lora', serif;
+  font-style: italic;
   text-align: center;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .projectdescription {
   font-size: 16px;
   text-align: justify;
   word-spacing: 1px;
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
 .inner {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
 .btn-group i {
   color: #71706e;
   font-size: 25px;
-  display: inline-flex; }
+  display: inline-flex;
+}
 
 .btn-group i:hover {
-  color: #d3a796; }
+  color: #d3a796;
+}
 
 .fa {
   color: #b7a095;
-  padding-top: 25px;
   font-size: 22px;
-  opacity: .5; }
+  opacity: 0.5;
+}
 
 .downarrow2 {
   position: relative;
@@ -269,21 +238,26 @@ ul {
   height: 30px;
   width: 30px;
   border: none;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 .footer {
   text-align: center;
   background-color: #464658;
   padding-top: 50px;
   padding-bottom: 50px;
-  color: #b7a095; }
+  color: #b7a095;
+}
 
 .footerSocialmedia {
-  padding: 20px; }
-  .footerSocialmedia a {
-    color: #b7a095;
-    padding: 40px; }
-    .footerSocialmedia a p {
-      padding: 10px; }
+  padding: 20px;
+}
+.footerSocialmedia a {
+  color: #b7a095;
+  padding: 40px;
+}
+.footerSocialmedia a p {
+  padding: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

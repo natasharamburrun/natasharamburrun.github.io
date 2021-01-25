@@ -5,30 +5,42 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/app.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <src src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></src>
   <link rel="stylesheet" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli|Amiri|Cinzel|Lato|Lora|Montserrat|Oswald|Playfair+Display" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://use.typekit.net/xao0kks.css">
   <link rel="shortcut icon" href="images/NRlogo-thicker.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <title>Natasha Ramburrun | Project Manager | Developer</title>
+  <title>Natasha Ramburrun Portfolio</title>
 </head>
 <body>
 
   <!-- navbar -->
-  <div class="topnav" id="myTopnav">
-    <nav class="navbar navbar-default is-fixed-top">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
       <a href="#top"><img width="65px" height="40px" src="./images/nrlogo.png" alt="NR logo"></a>
-        <div class="navbar-end">
-          <a href="#about" >ABOUT</a>
-          <a href="#skills" >SKILLS</a>
-          <a href="#projects">PROJECTS</a>
-        </nav>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a href="#about" class="navbar-item">ABOUT</a>
+        <a href="#skills" class="navbar-item">SKILLS</a>
+        <a href="#projects" class="navbar-item">PROJECTS</a>
       </div>
     </div>
-    <a href="#" id="back-to-top" title="Back to top"><i class="fas fa-angle-double-up top"></i></a>
+    </div>
+  </nav>
+
+  <a href="#" id="back-to-top" title="Back to top"><i class="fas fa-angle-double-up top"></i></a>
   <!-- header -->
-  <section class="hero">
+  <!-- <section class="hero">
     <div class="hero-body">
       <div class="container-title">
         <h1 class="title">
@@ -36,16 +48,16 @@
         </h1>
           <hr class="underline">
         <h2 class="subtitle">
-          Project Manager | Front end Developer
+          Project Manager | Frontend Developer
         </h2>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- About me -->
   <a name="about"></a>
   <div class="about-container">
     <section class="about-section">
-      <h1 class="about-title">ABOUT</h1>
+      <h1 class="about-title">ABOUT ME</h1>
       <hr class="titleUnderline">
       <div class="columns">
         <div class="column is-one-half">
@@ -55,13 +67,13 @@
         </div>
         <div class="column is-one-half">
           <div class="textAbt">
-            <p>I’m a web developer coming from a project management background. My interest in development sparked when I worked closely with the technical teams, and this provided me with an understanding of the industry which gave me a desire to learn more.</p>
+            <p>My name is Natasha Ramburrun, I'm currently working for a digital agency as a frontend developer and now looking to return to my passion of managing agile projects and programmes.</p><br/>
 
-            <p>Having a project management background means I am equip with core skills which cross over into being a developer. I enjoy both professions although expanding my career in development is my passion as this career path means that I continue to learn new skills using new technologies.</p>
+            <p>Having both a project management and a developer background means I'm equip with the core skill to lead teams to work together so they achieve their best work.</p><br/>
 
-            <p>For my first developer role, I would like to join a team that I can collaborate with, and can take on tasks which can help support my growth and development.</p>
+            <p>I have experience in leading projects from initial briefing to implementation, with direct responsibility for the day to day management of processes and managing requirements.</p><br/>
 
-            <p>Im excited to continue my journey in development and continue learning new skills as a developer working for an exciting company.</p>
+            <p>Im excited to continue my journey in project management working for an exciting company and continue learning new skills as a developer in my spare time.</p> 
           </div>
         </div>
       </div>
@@ -75,7 +87,7 @@
       <div class="wrapper">
         <!-- experiance and education -->
         <div class= "experience-container">
-          <h2 class="skillexperience-title">Developer Experience</h2>
+          <h2 class="skillexperience-title">Experience</h2>
           <div class="experience-wrapper">
             <div class="workexperience1">
               <img width="195" height="40" src="images/GA.png"  alt="general assembly logo">
@@ -91,7 +103,7 @@
             <div class="skills-sec">
               <div class="column center-align">
                 <h2 class="skillexperience-title">Developer Skills & Technologies</h2>
-                <div class="skillparagraph">
+                <div class="skillsparagraph">
                   <p>
                     <strong>Languages</strong>
                     <span class="skills">JavaScript</span>
