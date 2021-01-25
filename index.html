@@ -17,6 +17,7 @@
 <body>
 
   <!-- navbar -->
+
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a href="#top"><img width="65px" height="40px" src="./images/nrlogo.png" alt="NR logo"></a>
@@ -31,7 +32,7 @@
     <div class="navbar-menu">
       <div class="navbar-end">
         <a href="#about" class="navbar-item">ABOUT</a>
-        <a href="#skills" class="navbar-item">SKILLS</a>
+        <a href="#portfolio" class="navbar-item">PORTFOLIO</a>
         <a href="#projects" class="navbar-item">PROJECTS</a>
       </div>
     </div>
@@ -49,7 +50,7 @@
           NATASHA <br> RAMBURRUN
         </h1>
           <hr class="underline">
-        <h2 class="subtitle">
+        <h2 class="hero_subtitle">
           Project Manager | Frontend Developer | Personal Blogger
         </h2>
       </div>
@@ -61,8 +62,6 @@
   <a name="about"></a>
   <div class="about-container">
     <section class="about-section">
-      <h1 class="about-title">ABOUT ME</h1>
-      <hr class="titleUnderline">
       <div class="columns">
         <div class="column is-one-half">
           <div class="imgAbt">
@@ -89,59 +88,67 @@
     </section>
   </div>
 
-    </hr>
+    <!-- developer and business experience -->
 
-    <a name="skills"></a>
-    <div class= "skills-section">
-      <h2 class="skills-title">EXPERIENCE</h2>
-      <hr class="titleUnderline">
+    <a name="portfolio"></a>
+
+    <div class= "portfolio-section">
       <div class="wrapper">
-        <!-- experiance and education -->
         <div class= "experience-container">
-          <h2 class="skillexperience-title">Developer Experience</h2>
+          <h2 class="subtitle">Developer Experience</h2>
           <div class="experience-wrapper">
-
-            <div class="workexperience">
+            <div class="work-experience">
               <img width="195" height="40" src="images/mmt.png"  alt="mmt digital logo">
               <h4>MMT Digital - Frontend Developer</h4>
               <h5>Apr 19 - PRESENT</h5>
             </div>
-
-            <div class="workexperience">
+            <div class="work-experience">
               <img width="124" height="40" src="images/kano.png"  alt="kano computing logo">
               <h4>Kano Computing - Full Stack Developer</h4>
               <h5>Nov 18 - Apr 19</h5>
-            </div>
-         
-            <div class="workexperience">
-              <img width="195" height="40" src="images/GA.png"  alt="general assembly logo">
-              <h4>Web Development Immersive Course</h4>
-              <h5>Apr 18 - Jul 18</h5>
-            </div>
-
+            </div>  
           </div>
         </div>
+        <div class= "experience-container">
+        <hr class="title_Underline">
+          <h2 class="subtitle">Project Management Experience</h2>
+          <div class="experience-wrapper">
+            <div class="work-experience">
+              <img width="195" height="40" src="images/hsbc.png"  alt="hsbc digital logo">
+              <h4>HSBC - Business Transformation Project Manager</h4>
+              <h5>Nov 16 - Sept 17</h5>
+            </div>
+            <div class="work-experience">
+              <img width="124" height="40" src="images/m&g.png"  alt="m&g">
+              <h4>M&G Investments - Project Manager</h4>
+              <h5>Sept 12 - Oct 16</h5>
+            </div>  
+          </div>
+        </div>
+
+        <hr class="title_Underline">
         <!-- skills -->
+
         <div class= "skills-container">
           <section class="skills-box" id="section-three">
-            <div class="skills-sec">
-              <div class="column center-align">
-                <h2 class="skillexperience-title">Developer Skills & Technologies</h2>
-                <div class="skillsparagraph">
+            <div class="skills-section">
+              <div class="column">
+                <h2 class="subtitle">Technical Skills & Technologies</h2>
+                <div class="skills-column">
                   <p>
-                    <strong>Languages</strong>
+                    <strong>Languages:</strong>
                     <span class="skills">JavaScript</span>
                     <span class="skills">HTML5</span>
                     <span class="skills">CSS3</span>
                     <span class="skills">Sass</span>
                   </p>
                   <p>
-                    <strong>Frameworks</strong>
+                    <strong>Frameworks:</strong>
                     <span class="skills">Node.js</span>
                     <span class="skills">Express.js</span>
                   </p>
                   <p>
-                    <strong>Libraries</strong>
+                    <strong>Libraries:</strong>
                     <span class="skills">React.js</span>
                     <span class="skills">AngularJS</span>
                     <span class="skills">JQuery</span>
@@ -150,16 +157,22 @@
                     <span class="skills">Bootstrap</span>
                   </p>
                   <p>
-                    <strong>Data</strong>
+                    <strong>Data:</strong>
                     <span class="skills">MongoDB</span>
                     <span class="skills">Mongoose</span>
                   </p>
                   <p>
-                    <strong>Cloud</strong>
+                    <strong>Testing:</strong>
+                    <span class="skills">Cypress</span>
+                    <span class="skills">Mocha</span>
+                    <span class="skills">Chai</span>
+                  </p>
+                  <p>
+                    <strong>Cloud:</strong>
                     <span class="skills">Heroku</span>
                   </p>
                   <p>
-                    <strong>Extras</strong>
+                    <strong>Extras:</strong>
                     <span class="skills">RESTful APIs</span>
                     <span class="skills">HTTP</span>
                     <span class="skills">AJAX</span>
@@ -167,6 +180,7 @@
                     <span class="skills">Authentication</span>
                     <span class="skills">Git</span>
                     <span class="skills">GitHub</span>
+                    <span class="skills">Azure Devops</span>
                   </p>
                   <p>
                     <strong>Tools</strong>
@@ -176,19 +190,88 @@
                   </p>
                 </div>
               </div>
+
+              <hr class="title_Underline">
+
+              <div class="column">
+                <h2 class="subtitle">Business Tools and Framework</h2>
+                <div class="skills-column">
+                  <p>
+                    <strong>Tools:</strong>
+                    <span class="skills">Planview</span>
+                    <span class="skills">MS Project</span>
+                    <span class="skills">MS Office</span>
+                    <span class="skills">Visio</span>
+                    <span class="skills">SAP</span>
+                    <span class="skills">JIRA</span>
+                    <span class="skills">Business Engine Network</span>
+                  </p>
+                  <p>
+                    <strong>Methodology:</strong>
+                    <span class="skills">Prince 2</span>
+                    <span class="skills">Change Management</span>
+                    <span class="skills">Agile</span>
+                    <span class="skills">Scrum Master</span>
+                  </p>
+                </div>
+              </div>
             </div>
           </section>
         </div>
       </div>
-    </div>
+
+      <hr class="title_Underline">
+
+      <!-- education and qualification -->
+
+      <div class= "education-section">
+        <h2 class="subtitle">Education</h2>
+
+        <div class="experience-wrapper"> 
+          <div class="work-experience">
+            <img width="195" height="40" src="images/GA.png"  alt="general assembly logo">
+            <h4>Web Development Immersive Course</h4>
+            <h5>Apr 18 - Jul 18</h5>
+          </div>
+          <div class="work-experience">
+            <img width="124" height="40" src="images/wolves.png"  alt="wolves logo">
+            <h4>University of Wolverhampton</h4>
+            <h4>Business Management - BA Hons</h4>
+            <h5></h5>
+          </div> 
+        </div>
+        <h2 class="subtitle">Qualification</h2>
+        <div class="experience-wrapper"> 
+          <div class="work-experience">
+            <img width="124" height="40" src="images/change.png"  alt="change management logo">
+            <h4>APMG</h4>
+            <h4>Change Management</h4>
+            <h5>2016</h5>
+          </div> 
+          <div class="work-experience">
+            <img width="124" height="40" src="images/scrum.png"  alt="scrum master logo">
+            <h4>CSM Certified</h4>
+            <h4>SCRUM MASTER</h4>
+            <h5>2014</h5>
+          </div> 
+          <div class="work-experience">
+            <img width="124" height="40" src="images/prince2.png"  alt="prince2 logo">
+            <h4>APMG</h4>
+            <h4>PRINCE 2</h4>
+            <h5>2011</h5>
+          </div>
+        </div>
+      </div>
+
     <!-- portfolio -->
+
     <div id="projects" class="anchorDiv"></div>
     <div class="portfolio-container">
       <a name="projects"></a>
       <section class="page-portfolio" id="section-four">
         <div class="portfolio-sec">
-          <h2 class="project-title">PROJECTS</h2>
-          <hr class="titleUnderline">
+          <h2 class="title">My Work</h2>
+          <hr class="title_Underline">
           <!--- Project4 -->
           <div class="container">
             <div class="inner">

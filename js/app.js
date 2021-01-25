@@ -1,31 +1,12 @@
-//******topnav bar******
-
 $( document ).ready(function() {
-  //Dom Elements
-  const $x = $('.icon');
 
-  // //mobile x click
-  // $x.on('click', topNavToggle);
-
-  // function topNavToggle() {
-  //   const $topnav = $('#myTopnav');
-  //   if (!$topnav.hasClass('responsive')) {
-  //     $topnav.addClass('responsive');
-  //   } else {
-  //     $topnav.removeClass('responsive');
-  //   }
-  // }
-
-  $(document).ready(function() {
-
-    // Check for click events on the navbar burger icon
+  // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function() {
   
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         $(".navbar-burger").toggleClass("is-active");
         $(".navbar-menu").toggleClass("is-active");
   
-    });
   });
 
   // function to smooth the top nav link clicks

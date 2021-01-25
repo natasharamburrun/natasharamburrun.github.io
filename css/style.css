@@ -6,12 +6,28 @@ body {
   font-style: normal;
 }
 
-.titleUnderline {
+.title_Underline {
   width: 20%;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
   border-top: 2px solid #b7a095;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  color: #71706e;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.subtitle {
+  font-size: 25px;
+  text-align: center;
+  color: #71706e;
+  font-style: italic;
+  padding-top: 20px;
 }
 
 .navbar {
@@ -88,7 +104,7 @@ body {
   letter-spacing: 10px;
 }
 
-.subtitle {
+.hero_subtitle {
   font-size: 27px;
   padding-bottom: 30px;
   letter-spacing: 2px;
@@ -102,11 +118,8 @@ body {
   border-top: 2px solid #425154;
 }
 
-.about-title {
-  font-size: 25px;
-  text-align: center;
-  color: #71706e;
-  font-style: italic;
+.about-container {
+  padding-top: 20px;
 }
 
 .textAbt {
@@ -130,49 +143,10 @@ body {
   margin-bottom: 60px;
 }
 
-.skills-section {
+.portfolio-section {
   background-color: #efeaea;
   text-align: center;
-}
-
-.skills-title {
-  font-size: 25px;
-  color: #71706e;
-  font-style: italic;
-}
-
-.skills-sec {
-  text-align: center;
-}
-.skills-sec h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0px;
-}
-
-.skills {
-  line-height: 30px;
-  padding: 0px 10px;
-  color: #d3a796;
-  font-size: 18px;
-  border-right: 1px solid #996600;
-}
-
-.skills-sec {
-  font-size: 18px;
-}
-
-.skillsparagraph p {
-  padding: 5px;
-}
-
-.skillexperience-title {
-  font-size: 25px;
-  text-align: center;
-  color: #71706e;
-  padding-top: 20px;
   padding-bottom: 20px;
-  font-style: italic;
 }
 
 .experience-wrapper {
@@ -180,9 +154,20 @@ body {
   align-items: center;
 }
 
-.workexperience {
+.work-experience {
   display: block;
   padding: 20px;
+}
+
+.skills {
+  line-height: 30px;
+  padding: 0px 10px;
+  color: #d3a796;
+  font-size: 18px;
+}
+
+.skills-column p {
+  padding: 5px;
 }
 
 .project4language {
@@ -211,11 +196,6 @@ ul p {
   font-size: 12px;
   padding: 10px 25px;
   color: #71706e;
-}
-
-.portfolio-sec {
-  margin-top: 100px;
-  padding-bottom: 20px;
 }
 
 .project-title {
