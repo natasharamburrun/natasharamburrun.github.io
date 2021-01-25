@@ -119,28 +119,33 @@ body {
 }
 
 .about-container {
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .textAbt {
   text-align: right;
-  margin-top: 15px;
-  padding-right: 200px;
-  margin-bottom: 65px;
+  float: left;
 }
 .textAbt p {
   font-size: 20px;
   color: #71706e;
 }
 
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.personal-bio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .imgAbt img {
   border-radius: 50%;
-  margin-top: 80px;
-  float: right;
-  margin-top: 60px;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-bottom: 60px;
 }
 
 .portfolio-section {
@@ -245,17 +250,11 @@ ul p {
   opacity: 0.5;
 }
 
-.downarrow2 {
-  position: relative;
-  bottom: 0;
-  left: 50%;
-  color: #b7a095;
-  height: 30px;
-  width: 30px;
-  border: none;
-  margin-bottom: 5px;
+@media screen and (max-width: 768px) {
+  .show {
+    display: none;
+  }
 }
-
 .footer {
   text-align: center;
   background-color: #464658;
@@ -265,7 +264,7 @@ ul p {
 }
 
 .footerSocialmedia {
-  padding: 20px;
+  padding: 10px;
 }
 .footerSocialmedia a {
   color: #b7a095;
