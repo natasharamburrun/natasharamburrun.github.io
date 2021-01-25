@@ -15,7 +15,7 @@ body {
 }
 
 .navbar {
-  background-color: white;
+  background-color: #efeaea;
   padding: 20px;
 }
 
@@ -63,8 +63,43 @@ body {
   font-size: 30px;
 }
 
-.about-section {
-  padding-bottom: 20px;
+.hero-body {
+  background-color: #efeaea;
+  background-size: 1440px 720px;
+  background-repeat: no-repeat;
+  object-fit: scale-down;
+  background-size: 100%;
+  background-size: cover;
+  min-height: 715px;
+  background-position: center;
+  color: #464658;
+}
+
+.container-title {
+  background-position: center;
+  text-align: center;
+  margin-top: 220px;
+  color: black;
+}
+
+.container-title .title {
+  font-size: 45px;
+  color: #425154;
+  letter-spacing: 10px;
+}
+
+.subtitle {
+  font-size: 27px;
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+  color: #425154;
+}
+
+.underline {
+  width: 33%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-top: 2px solid #425154;
 }
 
 .about-title {
@@ -89,26 +124,20 @@ body {
   border-radius: 50%;
   margin-top: 80px;
   float: right;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 60px;
+  margin-left: 60px;
   margin-right: 60px;
   margin-bottom: 60px;
 }
 
 .skills-section {
-  padding-top: 60px;
   background-color: #efeaea;
   text-align: center;
-}
-
-.wrapper {
-  padding-bottom: 100px;
 }
 
 .skills-title {
   font-size: 25px;
   color: #71706e;
-  padding-top: 50px;
   font-style: italic;
 }
 
@@ -148,6 +177,12 @@ body {
 
 .experience-wrapper {
   display: inline-flex;
+  align-items: center;
+}
+
+.workexperience {
+  display: block;
+  padding: 20px;
 }
 
 .project4language {
