@@ -203,35 +203,8 @@ ul p {
   color: #71706e;
 }
 
-.project-title {
-  margin-top: 70px;
-  font-size: 25px;
-  text-align: center;
-  color: #71706e;
-  font-style: italic;
-}
-
-.projectbox {
-  text-align: left;
-  margin-top: 20px;
-}
-
-.project-name {
-  padding: 20px;
-  font-style: italic;
-  text-align: center;
-  font-size: 18px;
-}
-
-.projectdescription {
-  font-size: 16px;
-  text-align: justify;
-  word-spacing: 1px;
-  padding-top: 10px;
-}
-
-.inner {
-  margin-bottom: 50px;
+.card {
+  display: contents;
 }
 
 .btn-group i {

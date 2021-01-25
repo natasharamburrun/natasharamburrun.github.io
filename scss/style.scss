@@ -240,41 +240,45 @@ ul {
 //Portfolio
 //*********
 
-.project-title {
-  margin-top: 70px;
-  font-size: 25px;
-  text-align: center;
-  color: #71706e;
-  // font-family: 'Lora', serif;
-  font-style: italic;
-
+.card {
+  display: contents;
 }
 
-.projectbox {
-  text-align: left;
-  margin-top: 20px;
-}
+// .project-title {
+//   margin-top: 70px;
+//   font-size: 25px;
+//   text-align: center;
+//   color: #71706e;
+//   // font-family: 'Lora', serif;
+//   font-style: italic;
 
-.project-name {
-  padding: 20px;
-  // font-family: 'Lora', serif;
-  font-style: italic;
+// }
 
-  text-align: center;
-  font-size: 18px;
+// .projectbox {
+//   text-align: left;
+//   margin-top: 20px;
+// }
 
-}
+// .project-name {
+//   padding: 20px;
+//   // font-family: 'Lora', serif;
+//   font-style: italic;
 
-.projectdescription {
-  font-size: 16px;
-  text-align: justify;
-  word-spacing: 1px;
-  padding-top: 10px;
-}
+//   text-align: center;
+//   font-size: 18px;
 
-.inner {
-  margin-bottom: 50px;
-}
+// }
+
+// .projectdescription {
+//   font-size: 16px;
+//   text-align: justify;
+//   word-spacing: 1px;
+//   padding-top: 10px;
+// }
+
+// .inner {
+//   margin-bottom: 50px;
+// }
 //
 // @media screen and (min-width: 1440px) {
 //   .projectdescription {

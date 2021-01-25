@@ -96,13 +96,13 @@
       <div class="wrapper">
         <div class= "experience-container">
           <h2 class="subtitle">Developer Experience</h2>
-          <div class="experience-wrapper">
-            <div class="work-experience">
+          <div class="columns is-mobile is-multiline is-centered experience-wrapper">
+            <div class="column is-one-quarter work-experience">
               <img width="195" height="40" src="images/mmt.png"  alt="mmt digital logo">
               <h4>MMT Digital - Frontend Developer</h4>
               <h5>Apr 19 - PRESENT</h5>
             </div>
-            <div class="work-experience">
+            <div class="column is-one-quarter work-experience">
               <img width="124" height="40" src="images/kano.png"  alt="kano computing logo">
               <h4>Kano Computing - Full Stack Developer</h4>
               <h5>Nov 18 - Apr 19</h5>
@@ -112,13 +112,13 @@
         <div class= "experience-container">
         <hr class="title_Underline">
           <h2 class="subtitle">Project Management Experience</h2>
-          <div class="experience-wrapper">
-            <div class="work-experience">
+          <div class="columns is-mobile is-multiline is-centered experience-wrapper">
+            <div class="column is-one-quarter work-experience">
               <img width="124" height="40" src="images/hsbc.png"  alt="hsbc digital logo">
               <h4>HSBC - Business Project Manager</h4>
               <h5>Nov 16 - Sept 17</h5>
             </div>
-            <div class="work-experience">
+            <div class="column is-one-quarter work-experience">
               <img width="124" height="40" src="images/m&g.png"  alt="m&g">
               <h4>M&G Investments - Project Manager</h4>
               <h5>Sept 12 - Oct 16</h5>
@@ -226,37 +226,40 @@
       <!-- education and qualification -->
 
       <div class= "education-section">
+
         <h2 class="subtitle">Education</h2>
 
-        <div class="experience-wrapper"> 
-          <div class="work-experience">
+        <div class="columns is-mobile  is-multiline is-centered experience-wrapper"> 
+          <div class="column is-one-quarter work-experience">
             <img width="124" height="40" src="images/GA.png"  alt="general assembly logo">
             <h4>General Assembly - London</h4>
             <h4>Web Development Immersive Course</h4>
             <h5>Apr 18 - Jul 18</h5>
           </div>
-          <div class="work-experience">
+          <div class="column is-one-quarter work-experience">
             <img width="124" height="40" src="images/wolves.png"  alt="wolves logo">
             <h4>University of Wolverhampton</h4>
             <h4>Business Management - BA Hons</h4>
             <h5>2004 - 2007</h5>
           </div> 
         </div>
+
         <h2 class="subtitle">Qualification</h2>
-        <div class="experience-wrapper"> 
-          <div class="work-experience">
+
+        <div class="columns is-mobile is-multiline is-centered experience-wrapper"> 
+          <div class="column is-one-quarter work-experience">
             <img width="124" height="40" src="images/change.png"  alt="change management logo">
             <h4>APMG</h4>
             <h4>Change Management</h4>
             <h5>2016</h5>
           </div> 
-          <div class="work-experience">
+          <div class="column is-one-quarter work-experience">
             <img width="124" height="40" src="images/scrum.png"  alt="scrum master logo">
             <h4>CSM Certified</h4>
             <h4>SCRUM MASTER</h4>
             <h5>2014</h5>
           </div> 
-          <div class="work-experience">
+          <div class="column is-one-quarter work-experience">
             <img width="124" height="40" src="images/prince2.png"  alt="prince2 logo">
             <h4>APMG</h4>
             <h4>PRINCE 2</h4>
@@ -266,102 +269,103 @@
       </div>
     </div>
 
-    <!-- portfolio -->
+    <!-- projects -->
 
-    <div id="projects" class="anchorDiv"></div>
-    <div class="portfolio-container">
       <a name="projects"></a>
-      <section class="page-portfolio" id="section-four">
-        <div class="portfolio-sec">
-          <h2 class="title">My Work</h2>
-          <hr class="title_Underline">
+      <div class="container all-projects">
+        <h2 class="title">My Work</h2>
+        <hr class="title_Underline">
+                
           <!--- Project4 -->
-          <div class="container">
-            <div class="inner">
-              <div class="text">
-                <h3 class="project-name">DESIGNER MARKETPLACE</h3>
-              </div>
-              <div class="columns">
-                <div class="column is-half">
-                  <img width="625" height="425" src="./images/projects/project4-portfoliov1.jpg" class="img-project">
-                  <br>
+
+          <div class="columns is-multiline">
+            <div class="column is-half">
+              <h3 class="title project-name">DESIGNER MARKETPLACE</h3>
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="./images/projects/project4-portfoliov1.jpg" alt="img-project">
+                  </figure>
                 </div>
-                <div class="column is-half">
-                  <div class="projectbox">
-                  <ul class="project4language">
-                    <h4 class="text">Build:</h4>
-                    <li><i class="devicon devicon-react-original"></i><p>React</p></li>
-                    <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
-                    <li><i class="devicon devicon-nodejs-plain"></i><p>Node.js</p></li>
-                    <li><i class="devicon devicon-mongodb-plain"></i><p>MongoDB</p></li>
-                    <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
-                    <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
-                    <li><i class="devicon devicon-sass-original"></i><p>SASS</p></li>
-                  </ul>
-                  <p class="projectdescription">
-                    Designer Marketplace is a luxury resale e-commerce app which allows users to register and login to buy or sell pre-owned clothes.<br>
-                    Built a fully Authenticated RESTful MERN application using React, Express, Node.js, MongoDB/Mongoose, Strip and FileStack API.</p>
-                    <div class="btn-group">
-                      <a href="https://github.com/natasharamburrun/WDI-PROJECT-4" target="_blank"><i class="fab fa-github-square"></i></a>
-                      <a href="https://designer-marketplace.herokuapp.com/" target="_blank"><i class="fas fa-link"></i></a>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <ul class="project4language">
+                        <h4 class="text">Build:</h4>
+                        <li><i class="devicon devicon-react-original"></i><p>React</p></li>
+                        <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
+                        <li><i class="devicon devicon-nodejs-plain"></i><p>Node.js</p></li>
+                        <li><i class="devicon devicon-mongodb-plain"></i><p>MongoDB</p></li>
+                        <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
+                        <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
+                        <li><i class="devicon devicon-sass-original"></i><p>SASS</p></li>
+                      </ul>
                     </div>
-                  </div>
+                  </div>  
+                  <div class="content">
+                    <p class="projectdescription">
+                      Designer Marketplace is a luxury resale e-commerce app which allows users to register and login to buy or sell pre-owned clothes.<br>
+                      Built a fully Authenticated RESTful MERN application using React, Express, Node.js, MongoDB/Mongoose, Strip and FileStack API.</p>
+                      <div class="btn-group">
+                        <a href="https://github.com/natasharamburrun/WDI-PROJECT-4" target="_blank"><i class="fab fa-github-square"></i></a>
+                        <a href="https://designer-marketplace.herokuapp.com/" target="_blank"><i class="fas fa-link"></i></a>
+                      </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <!-- Project3 -->
-        <hr>
-        <div class="container">
-          <div class="inner">
-            <div class="text">
-              <h3 class="project-name">WHAT'S IN YOUR FRIDGE?</h3>
-            </div>
-            <div class="columns">
-              <div class="column is-half">
-                <div class="projectbox">
-                  <ul class="project4language">
-                    <h4 class="text">Build:</h4>
-                    <li><i class="devicon devicon-angularjs-plain"></i><p>AngularJS</p></li>
-                    <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
-                    <li><i class="devicon devicon-nodejs-plain"></i><p>Node.js</p></li>
-                    <li><i class="devicon devicon-mongodb-plain"></i><p>MongoDB</p></li>
-                    <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
-                    <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
-                    <li><i class="devicon devicon-sass-original"></i><p>SASS</p></li>
-                  </ul>
-                  <p class="projectdescription"> Collaborated as part of a team to create a RESTful application using third party API Spoonacular.<br>
-                  The team worked collaboratively by pair programming as well as focused on sections independently.<br>
-                  We developed this app using a third party API called Spoonacular to allow users to filter recipes by ingredients in their fridge. </p>
+
+          <!-- Project3 -->
+
+            <div class="column is-half">
+              <h3 class="title project-name">WHAT'S IN YOUR FRIDGE?</h3>
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="./images/projects/project3-portfoliov1.jpg" alt="img-project">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <ul class="project4language">
+                        <h4 class="text">Build:</h4>
+                          <li><i class="devicon devicon-angularjs-plain"></i><p>AngularJS</p></li>
+                          <li><i class="devicon devicon-express-original"></i><p>Express</p></li>
+                          <li><i class="devicon devicon-nodejs-plain"></i><p>Node.js</p></li>
+                          <li><i class="devicon devicon-mongodb-plain"></i><p>MongoDB</p></li>
+                          <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
+                          <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
+                          <li><i class="devicon devicon-sass-original"></i><p>SASS</p></li>
+                      </ul>
+                    </div>
+                  </div>  
+                  <div class="content">
+                    <p class="projectdescription"> Collaborated as part of a team to create a RESTful application using third party API Spoonacular.<br>
+                      The team worked collaboratively by pair programming as well as focused on sections independently.<br>
+                      We developed this app using a third party API called Spoonacular to allow users to filter recipes by ingredients in their fridge. </p>
                     <div class="btn-group">
                       <a href="https://github.com/natasharamburrun/WDI-PROJECT-3" target="_blank"><i class="fab fa-github-square"></i></a>
                       <a href="https://what-is-in-your-fridge.herokuapp.com/" target="_blank"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
                 </div>
-                <div class="column is-half">
-                  <img width="625" height="425" src="./images/projects/project3-portfoliov1.jpg" class="img-project">
-                  <br>
-                </div>
               </div>
-            </div>
-          </div>
-          <hr>
-          <!-- Project2 -->
-          <div class="container">
-            <div class="inner">
-              <div class="text">
-                <h3 class="project-name">HAIR STYLIST</h3>
+             </div>
+
+          <!--- Project2 -->
+
+          <div class="column is-half">
+            <h3 class="title project-name">HAIR STYLIST</h3>
+            <div class="card">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="./images/projects/project2-portfoliov3.jpg" alt="img-project">
+                </figure>
               </div>
-              <div class="columns">
-                <div class="column is-half">
-                  <img width="625" height="425" src="./images/projects/project2-portfoliov3.jpg" class="img-project">
-                  <br>
-                </div>
-                <div class="column is-half">
-                  <div class="projectbox">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
                     <ul class="project4language">
                       <h4 class="text">Build:</h4>
                       <li><i class="devicon devicon-jquery-plain"></i><p>jQuery</p></li>
@@ -372,15 +376,53 @@
                       <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
                       <li><i class="devicon devicon-sass-original"></i><p>SASS</p></li>
                     </ul>
+                  </div>
+                </div>  
+                <div class="content">
+                  <p class="projectdescription">
+                    Hairstylist app is a platform for hairdressers to showcase their portfolio of work and allow the public to access information about the hairdresser and the salon they work from.<br>
+                    I successfully implemented API Google maps to show geographical location of the salon and used Flickity to display a selection of the pictures.<br>
+                    This website was my first express application, it allowed me to explore my creativity and focus on establishing the fundamentals of building an app.
+                    <br>
+                    <div class="btn-group">
+                      <a href="https://github.com/natasharamburrun/WDI-PROJECT-2" target="_blank"><i class="fab fa-github-square"></i></a>
+                      <a href="https://wd34hairstylistappproject.herokuapp.com/" target="_blank"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+           </div>
+
+            <!--- Project1 -->
+            
+            <div class="column is-half">
+              <h3 class="title project-name">TOM AND JERRY'S MOUSE MAZE</h3>
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="./images/projects/project1-portfoliov2.jpg" alt="img-project">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <ul class="project4language">
+                        <h4 class="text">Build:</h4>
+                        <li><i class="devicon devicon-jquery-plain"></i><p>jQuery</p></li>
+                        <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
+                        <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
+                        <li><i class="devicon devicon-css3-plain"></i><p>CSS3</p></li>
+                      </ul>
+                    </div>
+                  </div>  
+                  <div class="content">
                     <p class="projectdescription">
-                      Hairstylist app is a platform for hairdressers to showcase their portfolio of work and allow the public to access information about the hairdresser and the salon they work from.<br>
-                      I successfully implemented API Google maps to show geographical location of the salon and used Flickity to display a selection of the pictures.<br>
-                      This website was my first express application, it allowed me to explore my creativity and focus on establishing the fundamentals of building an app.
-                      <br>
-                      <div class="btn-group">
-                        <a href="https://github.com/natasharamburrun/WDI-PROJECT-2" target="_blank"><i class="fab fa-github-square"></i></a>
-                        <a href="https://wd34hairstylistappproject.herokuapp.com/" target="_blank"><i class="fas fa-link"></i></a>
-                      </div>
+                      Developed a grid maze game based on the theme 'Tom and Jerry', a children's cult classic cartoon from the 1940s.
+                      Designed as a one player game which you use the arrow keys to control Jerry avoiding Tom, his alley friend Butch and mousetraps. Pick up all the cheese you win the game.<br>
+                      This game was built as my first project for General Assembly's Web Immersive Programme.
+                    </p>
+                    <div class="btn-group">
+                      <a href="https://github.com/natasharamburrun/WDI-PROJECT-1" target="_blank"><i class="fab fa-github-square"></i></a>
                     </div>
                   </div>
                 </div>
@@ -388,43 +430,8 @@
             </div>
           </div>
         </div>
-        <hr>
-        <!-- Project1 -->
-        <div class="container">
-          <div class="inner">
-            <div class="text">
-              <h3 class="project-name">TOM AND JERRY'S MOUSE MAZE</h3>
-            </div>
-            <div class="columns">
-              <div class="column is-half">
-                <div class="projectbox">
-                  <ul class="project4language">
-                    <h4 class="text">Build:</h4>
-                    <li><i class="devicon devicon-jquery-plain"></i><p>jQuery</p></li>
-                    <li><i class="devicon devicon-javascript-plain"></i><p>JavaScript</p></li>
-                    <li><i class="devicon devicon-html5-plain"></i><p>HTML5</p></li>
-                    <li><i class="devicon devicon-css3-plain"></i><p>CSS3</p></li>
-                  </ul>
-                  <p class="projectdescription">
-                    Developed a grid maze game based on the theme 'Tom and Jerry', a children's cult classic cartoon from the 1940s.
-                    Designed as a one player game which you use the arrow keys to control Jerry avoiding Tom, his alley friend Butch and mousetraps. Pick up all the cheese you win the game.<br>
-                    This game was built as my first project for General Assembly's Web Immersive Programme.
-                  </p>
-                  <div class="btn-group">
-                    <a href="https://github.com/natasharamburrun/WDI-PROJECT-1" target="_blank"><i class="fab fa-github-square"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="column is-half">
-                <img width="625" height="425" src="./images/projects/project1-portfoliov2.jpg" class="img-project">
-                <br>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+         
+
   <div id="contacts" class="contact"></div>
   <!-- Footer -->
   <!-- <a name="contact"></a> -->
