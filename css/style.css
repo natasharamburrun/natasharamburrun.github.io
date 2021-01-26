@@ -90,20 +90,19 @@ body {
 
 .hero-body {
   background-color: #efeaea;
-  min-height: 715px;
-  color: #464658;
+  color: #b7a095;
 }
 
 .container-title {
   background-position: center;
   text-align: center;
-  margin-top: 220px;
   color: black;
+  font-variant: small-caps;
 }
 
-.container-title .title {
-  font-size: 45px;
-  color: #425154;
+.hero-title {
+  font-size: 55px;
+  color: #b7a095;
   letter-spacing: 10px;
 }
 
@@ -111,7 +110,7 @@ body {
   font-size: 27px;
   padding-bottom: 30px;
   letter-spacing: 2px;
-  color: #425154;
+  color: #b7a095;
 }
 
 .underline {
