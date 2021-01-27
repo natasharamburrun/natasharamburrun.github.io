@@ -18,7 +18,7 @@ body {
   padding-top: 20px;
 }
 .subtitle {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   color: #71706e;
   font-style: italic;
@@ -170,11 +170,16 @@ body {
   padding: 0px 10px;
   color: #71706e;
   font-size: 18px;
-  // border-right: 1px solid #996600;
 }
 
-.skills-list p {
-  padding: 5px;
+.skills-list {
+  display: flex;
+  padding: 5px
+}
+
+.skill-column {
+  max-width: 45em;
+  margin: 0 auto;
 }
 
 //************************
