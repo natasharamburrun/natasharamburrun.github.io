@@ -1,17 +1,10 @@
 body {
+  background-color: #f5efec;
   color: #71706e;
   font-family: kepler-std-semicondensed-dis, serif;
   font-weight: 300;
   letter-spacing: 1px;
   font-style: normal;
-}
-
-.title_Underline {
-  width: 20%;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-top: 2px solid #b7a095;
 }
 
 .title {
@@ -30,11 +23,18 @@ body {
   padding-top: 20px;
 }
 
+.title_Underline {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 2px solid #b7a095;
+}
+
 .navbar {
   background-color: #ece7e2;
 }
-
-.navbar-item {
+.navbar .navbar-item {
   color: #b7a095;
   text-align: center;
   padding: 14px;
@@ -43,8 +43,7 @@ body {
   font-weight: bolder;
   letter-spacing: 2px;
 }
-
-.navbar-burger {
+.navbar .navbar-item .navbar-burger {
   color: #b7a095;
 }
 
@@ -92,21 +91,17 @@ body {
   background-color: #ece7e2;
   color: #b7a095;
 }
-
-.container-title {
-  background-position: center;
+.hero-body .container-title {
   text-align: center;
-  color: black;
   font-variant: small-caps;
 }
-
-.hero-title {
+.hero-body .container-title .hero-title {
   font-size: 55px;
   color: #b7a095;
   letter-spacing: 10px;
 }
 
-.hero_subtitle {
+.hero-subtitle {
   font-size: 27px;
   padding-bottom: 30px;
   letter-spacing: 2px;
@@ -124,27 +119,16 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .about-me p {
   font-size: 20px;
   color: #71706e;
-  text-align: center;
-}
-
-.about-me img {
-  border-radius: 50%;
+  text-align: left;
 }
 
 .profile-picture {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.personal-bio {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .portfolio {
@@ -166,7 +150,7 @@ body {
 .skills {
   line-height: 30px;
   padding: 0px 10px;
-  color: #d3a796;
+  color: #71706e;
   font-size: 18px;
 }
 
@@ -180,7 +164,7 @@ body {
   font-size: small;
 }
 .media .dev-icon {
-  color: #d3a796;
+  color: #71706e;
 }
 .media .dev-icon .icon-text {
   padding: 2px;
