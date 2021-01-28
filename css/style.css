@@ -34,7 +34,12 @@ body {
 .navbar {
   background-color: #ece7e2;
 }
-.navbar .navbar-item {
+
+.navbar-menu {
+  background-color: #ece7e2;
+}
+
+.navbar-item {
   color: #b7a095;
   text-align: center;
   padding: 14px;
@@ -43,7 +48,8 @@ body {
   font-weight: bolder;
   letter-spacing: 2px;
 }
-.navbar .navbar-item .navbar-burger {
+
+.navbar-burger {
   color: #b7a095;
 }
 
@@ -90,10 +96,13 @@ body {
 .hero-body {
   background-color: #ece7e2;
   color: #b7a095;
+  height: 100vh;
 }
 .hero-body .container-title {
   text-align: center;
   font-variant: small-caps;
+  position: relative;
+  top: 30%;
 }
 .hero-body .container-title .hero-title {
   font-size: 55px;
