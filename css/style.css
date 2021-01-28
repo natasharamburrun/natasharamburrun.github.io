@@ -53,14 +53,9 @@ body {
   color: #b7a095;
 }
 
-.navbar-brand img {
-  margin-left: 30px;
-  margin-top: 10px;
-}
-
-.navbar-end {
-  margin-right: 30px;
-  margin-top: 10px;
+a:hover {
+  background-color: #b7a095;
+  color: whitesmoke;
 }
 
 #back-to-top {
