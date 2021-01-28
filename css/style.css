@@ -149,6 +149,8 @@ a:hover {
   border-radius: 100%;
   border: 2px solid #ece7e2;
   margin-bottom: 0.9375rem;
+  max-height: 375px;
+  max-width: 275px;
 }
 
 .portfolio {
