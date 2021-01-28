@@ -98,16 +98,18 @@ body {
   color: #b7a095;
   height: 100vh;
 }
-.hero-body .container-title {
+
+.hero-title {
+  font-size: 55px;
+  color: #b7a095;
+  letter-spacing: 10px;
+}
+
+.container-title {
   text-align: center;
   font-variant: small-caps;
   position: relative;
   top: 30%;
-}
-.hero-body .container-title .hero-title {
-  font-size: 55px;
-  color: #b7a095;
-  letter-spacing: 10px;
 }
 
 .hero-subtitle {
