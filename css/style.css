@@ -131,15 +131,6 @@ a:hover {
   text-align: left;
 }
 
-.profile-picture {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  top: 30%;
-}
-
 .image-about_me {
   display: flex;
   justify-content: space-evenly;
@@ -151,6 +142,12 @@ a:hover {
   margin-bottom: 0.9375rem;
   max-height: 375px;
   max-width: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 30%;
 }
 
 .portfolio {
