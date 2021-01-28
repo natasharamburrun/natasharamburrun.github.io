@@ -135,8 +135,8 @@ a:hover {
 //*********
 
 .about-me {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  min-height: 100vh;
+  padding: 30px;
   p {
     font-size: 20px;
     color: #71706e;
@@ -145,10 +145,24 @@ a:hover {
 }
 .profile-picture {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  position: relative;
+  top: 30%;
 }
+
+.image-about_me {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.personal-bio img {
+  border-radius: 100%;
+  border: 2px solid #ece7e2;
+  margin-bottom: .9375rem;
+}
+
 
 //****************
 //experience section
