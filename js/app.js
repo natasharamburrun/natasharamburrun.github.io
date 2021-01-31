@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-  // Check for click events on the navbar burger icon
+   // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function() {
   
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
@@ -8,6 +8,42 @@ $( document ).ready(function() {
         $(".navbar-menu").toggleClass("is-active");
   
   });
+
+
+  //Shows paragraphs, then hides them all, back and forth.
+
+
+    $(".collapsible1").click(function(){  
+      this.classList.toggle("active");
+      $(".content_1").toggle();
+    });
+
+    $(".collapsible2").click(function(){  
+      this.classList.toggle("active");
+      $(".content_2").toggle();
+    });
+
+    $(".collapsible3").click(function(){  
+      this.classList.toggle("active");
+      $(".content_3").toggle();
+    });
+
+    $(".collapsible4").click(function(){  
+      this.classList.toggle("active");
+      $(".content_4").toggle();
+    });
+
+    $(".collapsible5").click(function(){  
+      this.classList.toggle("active");
+      $(".content_5").toggle();
+    });
+
+    $(".collapsible6").click(function(){  
+      this.classList.toggle("active");
+      $(".content_6").toggle();
+    });
+
+
 
   // function to smooth the top nav link clicks
   // Select all links with hashes

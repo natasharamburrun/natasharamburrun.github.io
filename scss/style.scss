@@ -12,10 +12,9 @@ body {
 }
 .title {
   font-size: 25px;
-  text-align: center;
+  text-align: left;
   color: #71706e;
-  font-style: italic;
-  padding-top: 20px;
+  // padding: 50px;
 }
 .subtitle {
   font-size: 20px;
@@ -41,7 +40,7 @@ body {
 }
 
 .navbar-menu {
-  background-color: #ece7e2;
+  background-color: #ece7e2;   
 }
 
 .navbar-item {
@@ -56,12 +55,11 @@ body {
 
 .navbar-burger {
   color: #b7a095;
-}
-
-a:hover {
-  background-color: #b7a095;
-  color: whitesmoke;
-}
+  a:hover {
+    background-color: #b7a095;
+    color: whitesmoke;
+  }
+}   
 
 //***********************
 //arrow to return to top*
@@ -94,9 +92,9 @@ a:hover {
   font-size: 30px;
 }
 
-//**********************
-//hero and title section
-//**********************
+//***********************
+//hero and title section*
+//***********************
 
 .hero-body {
   background-color: #ece7e2;
@@ -135,13 +133,20 @@ a:hover {
 //*********
 
 .about-me {
-  min-height: 100vh;
-  padding: 30px;
+  padding: 50px;
+  display: flex;
+  max-width: 48rem;
+  margin: 0 auto;
   p {
     font-size: 20px;
     color: #71706e;
     text-align: left;
   }
+}
+
+.my-bio {
+  display: flex;
+  align-self: center;
 }
 
 .image-about_me {
@@ -163,45 +168,143 @@ a:hover {
   top: 30%;
 }
 
-//****************
-//experience section
-//****************
+//*******************
+//experience section*
+//*******************
 
-.portfolio {
-  background-color: #ece7e2;
-  text-align: center;
-  padding-bottom: 20px;
+.experience {
+  padding: 48px;
+  max-width: 55rem;
+  margin: 0 auto;
 }
 
-.experience-wrapper {
-  display: inline-flex;
-  align-items: center;
+.job-column {
+  background-color: #b7a095;
+  margin: 20px;
 }
 
-.work-experience {
+.article-work {
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+}
+
+.my-education {
   display: block;
-  padding: 20px;
 }
 
-//**************
-//skills section
-//**************
+.service-work {
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+}
 
-.skills {
-  line-height: 30px;
-  padding: 0px 10px;
-  color: #71706e;
+@media screen and (min-width: 1024px) {
+.service-work {
+  flex-direction: row;
+  justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .bio-service{
+    display: contents;
+    }
+  }
+
+.service-education {
+  display: block;
+}
+
+.job {
+  text-align: left;
+}
+
+.bio-service {
+  color: whitesmoke;
+  text-align: left;
+  min-height: 280px;
   font-size: 18px;
 }
 
-.skills-list {
-  display: flex;
-  padding: 5px
+.years-service {
+  color: whitesmoke;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
-.skill-column {
-  max-width: 45em;
-  margin: 0 auto;
+.portfolio {
+  padding-bottom: 20px;
+}
+
+.heading {
+  font-size: 25px;
+  text-align: left;
+  color: whitesmoke;
+}
+
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: .625rem 0;
+  color: whitesmoke;
+}
+
+.resume_subtitle {
+  width: 100%;
+  font-style: italic;
+  margin: 0 0 .3125rem;
+}
+
+//****************************************
+//Make a toggle to open experience detail* 
+//****************************************
+
+
+/* Style the button that is used to open and close the collapsible content */
+
+.collapsible1, .collapsible2, .collapsible3, .collapsible4, .collapsible5, .collapsible6 {
+  font-family: kepler-std-semicondensed-dis, serif;
+  // background-color: #ece7e2;
+  background-color: #b7a095;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible1:hover, .active, .collapsible2:hover, .active, .collapsible3:hover, .active, .collapsible4:hover, .active, .collapsible5:hover, .active, .collapsible6:hover {
+  // background-color: #ccc;
+  background-color: #b7a095;
+
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content_1, .content_2, .content_3, .content_4, .content_5, .content_6 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  // background-color: #f1f1f1;
+  display: none;
+
+}
+
+.collapsible1:after, .collapsible2:after, .collapsible3:after, .collapsible4:after, .collapsible5:after, .collapsible6:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 //************************
@@ -227,6 +330,11 @@ a:hover {
 //*********
 //Portfolio
 //*********
+
+.all-projects {
+  max-width: 58rem;
+  margin: 0 auto;
+}
 
 .card {
   display: contents;
